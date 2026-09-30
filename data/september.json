@@ -1,0 +1,619 @@
+{
+  "month": "September",
+  "monthFile": "september",
+  "generatedAt": "2026-09-30T09:17:17.998Z",
+  "topEarner": {
+    "name": "Metodi Atanasov",
+    "account": "Flowx.ai",
+    "initials": "MA",
+    "id": "metodi",
+    "meetings": 10,
+    "kpi": 7,
+    "tier": 5,
+    "bonus": 780,
+    "baseBonus": 530,
+    "extraBonus": 250,
+    "specialBonus": 0,
+    "kpiProgressPct": 143,
+    "overBy": 3,
+    "summary": "KPI smashed. 3 meetings over target."
+  },
+  "paidOutTotal": 810,
+  "paidOut": [
+    {
+      "name": "Josh G.",
+      "initials": "JG",
+      "bonus": 440
+    },
+    {
+      "name": "Altin Krasniqi",
+      "initials": "AK",
+      "bonus": 300
+    },
+    {
+      "name": "Gentian Elezi",
+      "initials": "GE",
+      "bonus": 70
+    }
+  ],
+  "seasonTrack": [
+    {
+      "name": "Metodi Atanasov",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 10,
+      "kpi": 7,
+      "pct": 100
+    },
+    {
+      "name": "Jovana Stojanovic",
+      "initials": "JS",
+      "id": "jovana",
+      "meetings": 10,
+      "kpi": 10,
+      "pct": 100
+    },
+    {
+      "name": "Josh G.",
+      "initials": "JG",
+      "id": "josh",
+      "meetings": 6,
+      "kpi": 5,
+      "pct": 100
+    },
+    {
+      "name": "Adnan Davutov",
+      "initials": "AD",
+      "id": "adnan",
+      "meetings": 5,
+      "kpi": 5,
+      "pct": 100
+    },
+    {
+      "name": "Metodi Atanasov",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 4,
+      "kpi": 4,
+      "pct": 100
+    },
+    {
+      "name": "Metodi Atanasov",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 3,
+      "kpi": 3,
+      "pct": 100
+    },
+    {
+      "name": "Lea Buzhala",
+      "initials": "LB",
+      "id": "lea",
+      "meetings": 3,
+      "kpi": 3,
+      "pct": 100
+    },
+    {
+      "name": "Altin Krasniqi",
+      "initials": "AK",
+      "id": "altin",
+      "meetings": 0,
+      "kpi": 5,
+      "pct": 0
+    }
+  ],
+  "allEarners": [
+    {
+      "name": "Metodi Atanasov",
+      "account": "Flowx.ai",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 10,
+      "kpi": 7,
+      "bonus": 780,
+      "approved": false,
+      "kpiProgressPct": 143
+    },
+    {
+      "name": "Jovana Stojanovic",
+      "account": "Sequesto",
+      "initials": "JS",
+      "id": "jovana",
+      "meetings": 10,
+      "kpi": 10,
+      "bonus": 780,
+      "approved": false,
+      "kpiProgressPct": 100
+    },
+    {
+      "name": "Josh G.",
+      "account": "Flowx.ai",
+      "initials": "JG",
+      "id": "josh",
+      "meetings": 6,
+      "kpi": 5,
+      "bonus": 440,
+      "approved": true,
+      "kpiProgressPct": 120
+    },
+    {
+      "name": "Adnan Davutov",
+      "account": "Ionos",
+      "initials": "AD",
+      "id": "adnan",
+      "meetings": 5,
+      "kpi": 5,
+      "bonus": 380,
+      "approved": false,
+      "kpiProgressPct": 100
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Cosmo Tech",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 4,
+      "kpi": 4,
+      "bonus": 330,
+      "approved": false,
+      "kpiProgressPct": 100
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Ledge",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 3,
+      "kpi": 3,
+      "bonus": 310,
+      "approved": false,
+      "kpiProgressPct": 100
+    },
+    {
+      "name": "Lea Buzhala",
+      "account": "Ledge",
+      "initials": "LB",
+      "id": "lea",
+      "meetings": 3,
+      "kpi": 3,
+      "bonus": 310,
+      "approved": false,
+      "kpiProgressPct": 100
+    },
+    {
+      "name": "Altin Krasniqi",
+      "account": "Swimm",
+      "initials": "AK",
+      "id": "altin",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 300,
+      "approved": true,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Gerard Daberdaku",
+      "account": "Network box USA",
+      "initials": "GD",
+      "id": "gerard",
+      "meetings": 6,
+      "kpi": 10,
+      "bonus": 190,
+      "approved": false,
+      "kpiProgressPct": 60
+    },
+    {
+      "name": "Rea Bitri",
+      "account": "Flowx.ai",
+      "initials": "RB",
+      "id": "rea",
+      "meetings": 4,
+      "kpi": 5,
+      "bonus": 130,
+      "approved": false,
+      "kpiProgressPct": 80
+    },
+    {
+      "name": "Rona Kingji",
+      "account": "Flowx.ai",
+      "initials": "RK",
+      "id": "rona",
+      "meetings": 2,
+      "kpi": 5,
+      "bonus": 90,
+      "approved": false,
+      "kpiProgressPct": 40
+    },
+    {
+      "name": "Flamur Osmani",
+      "account": "Guardz",
+      "initials": "FO",
+      "id": "flamur",
+      "meetings": 4,
+      "kpi": 10,
+      "bonus": 80,
+      "approved": false,
+      "kpiProgressPct": 40
+    },
+    {
+      "name": "Rrezart Shkodra",
+      "account": "Flowx.ai",
+      "initials": "RS",
+      "id": "rrezart",
+      "meetings": 4,
+      "kpi": 7,
+      "bonus": 80,
+      "approved": false,
+      "kpiProgressPct": 57
+    },
+    {
+      "name": "Gentian Elezi",
+      "account": "Swimm",
+      "initials": "GE",
+      "id": "gentian",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 70,
+      "approved": true,
+      "kpiProgressPct": 20
+    },
+    {
+      "name": "George Bugarovic",
+      "account": "Eyesover",
+      "initials": "GB",
+      "id": "george",
+      "meetings": 3,
+      "kpi": 8,
+      "bonus": 60,
+      "approved": false,
+      "kpiProgressPct": 38
+    },
+    {
+      "name": "Vladan Koprivnica",
+      "account": "Guardz",
+      "initials": "VK",
+      "id": "vladan",
+      "meetings": 3,
+      "kpi": 10,
+      "bonus": 60,
+      "approved": false,
+      "kpiProgressPct": 30
+    },
+    {
+      "name": "Liza Krivaça",
+      "account": "Flowx.ai",
+      "initials": "LK",
+      "id": "liza",
+      "meetings": 3,
+      "kpi": 7,
+      "bonus": 60,
+      "approved": false,
+      "kpiProgressPct": 43
+    },
+    {
+      "name": "Vesa Kelmendi",
+      "account": "Claim tech",
+      "initials": "VK",
+      "id": "vesa",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 50,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": " Milena Mitrushov",
+      "account": "Amiy",
+      "initials": "MM",
+      "id": "milena",
+      "meetings": 2,
+      "kpi": 5,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 40
+    },
+    {
+      "name": "Aleksandro Klincarski",
+      "account": "Guardz",
+      "initials": "AK",
+      "id": "aleksandro",
+      "meetings": 2,
+      "kpi": 10,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 20
+    },
+    {
+      "name": "Muhamet Ferizi",
+      "account": "Guardz",
+      "initials": "MF",
+      "id": "muhamet",
+      "meetings": 2,
+      "kpi": 10,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 20
+    },
+    {
+      "name": "Masa Micovic",
+      "account": "Sequesto",
+      "initials": "MM",
+      "id": "masa",
+      "meetings": 2,
+      "kpi": 7,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 29
+    },
+    {
+      "name": "Elida Avdimetaj",
+      "account": "Draftt.io",
+      "initials": "EA",
+      "id": "elida",
+      "meetings": 2,
+      "kpi": 5,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 40
+    },
+    {
+      "name": "Kristina Kostandinović",
+      "account": "Amiy",
+      "initials": "KK",
+      "id": "kristina",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
+    },
+    {
+      "name": "Rey Chevere",
+      "account": " IONOS CLOUD ES (Arsys)",
+      "initials": "RC",
+      "id": "rey",
+      "meetings": 1,
+      "kpi": 3,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 33
+    },
+    {
+      "name": "Josh Akamihe",
+      "account": "Flowx.ai",
+      "initials": "JA",
+      "id": "josh",
+      "meetings": 1,
+      "kpi": 7,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 14
+    },
+    {
+      "name": "Medina Gashi",
+      "account": "Draftt.io",
+      "initials": "MG",
+      "id": "medina",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
+    },
+    {
+      "name": "Bisera Popovska",
+      "account": "Hear.ai",
+      "initials": "BP",
+      "id": "bisera",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Jonida Shkodra",
+      "account": "Global Surveyz",
+      "initials": "JS",
+      "id": "jonida",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Driton Halili",
+      "account": "Global Surveyz",
+      "initials": "DH",
+      "id": "driton",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Leart Matluma",
+      "account": "Swimm",
+      "initials": "LM",
+      "id": "leart",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Fat Goska",
+      "account": "Swimm",
+      "initials": "FG",
+      "id": "fat",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Elda Hida",
+      "account": "Swimm",
+      "initials": "EH",
+      "id": "elda",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Haxhi Krasniqi",
+      "account": "Swimm",
+      "initials": "HK",
+      "id": "haxhi",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Gent Isaku",
+      "account": "Swimm",
+      "initials": "GI",
+      "id": "gent",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Mac Torralba",
+      "account": "Swimm",
+      "initials": "MT",
+      "id": "mac",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Art Qorrolli",
+      "account": "Swimm",
+      "initials": "AQ",
+      "id": "art",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Adi Hasaković",
+      "account": "Swimm",
+      "initials": "AH",
+      "id": "adi",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Natasa Dimovska",
+      "account": "Swimm",
+      "initials": "ND",
+      "id": "natasa",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Aleksandro Klincarski",
+      "account": "Swimm",
+      "initials": "AK",
+      "id": "aleksandro",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Damjan Dedic",
+      "account": "Discern Security",
+      "initials": "DD",
+      "id": "damjan",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Donat Halimi",
+      "account": "Discern Security",
+      "initials": "DH",
+      "id": "donat",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Mateo Gropasi",
+      "account": "Markival",
+      "initials": "MG",
+      "id": "mateo",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Valdrin Kastrati",
+      "account": "ubx cloud",
+      "initials": "VK",
+      "id": "valdrin",
+      "meetings": 0,
+      "kpi": 8,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Erblin Ramusa",
+      "account": "Flowx.ai",
+      "initials": "ER",
+      "id": "erblin",
+      "meetings": 0,
+      "kpi": 6,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Elena Ristovska",
+      "account": "Secure Tactics",
+      "initials": "ER",
+      "id": "elena",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    }
+  ],
+  "stats": {
+    "totalRecords": 48,
+    "aggregatedRows": 46,
+    "approvedCount": 3,
+    "uniqueSdrs": 43
+  }
+}
