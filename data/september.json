@@ -1,7 +1,7 @@
 {
   "month": "September",
   "monthFile": "september",
-  "generatedAt": "2026-09-30T15:04:46.962Z",
+  "generatedAt": "2026-09-30T15:54:03.592Z",
   "topEarner": {
     "name": "Josh G.",
     "account": "Flowx.ai",
@@ -18,7 +18,7 @@
     "overBy": 2,
     "summary": "KPI smashed. 2 meetings over target."
   },
-  "paidOutTotal": 7020,
+  "paidOutTotal": 7120,
   "paidOut": [
     {
       "name": "Josh G.",
@@ -56,6 +56,11 @@
       "bonus": 440
     },
     {
+      "name": "Altin Krasniqi",
+      "initials": "AK",
+      "bonus": 340
+    },
+    {
       "name": "Lea Buzhala",
       "initials": "LB",
       "bonus": 330
@@ -64,11 +69,6 @@
       "name": "Metodi Atanasov",
       "initials": "MA",
       "bonus": 330
-    },
-    {
-      "name": "Altin Krasniqi",
-      "initials": "AK",
-      "bonus": 320
     },
     {
       "name": "Metodi Atanasov",
@@ -126,6 +126,11 @@
       "bonus": 60
     },
     {
+      "name": "Natasa Dimovska",
+      "initials": "ND",
+      "bonus": 60
+    },
+    {
       "name": " Milena Mitrushov",
       "initials": "MM",
       "bonus": 40
@@ -153,6 +158,11 @@
     {
       "name": "Rey Chevere",
       "initials": "RC",
+      "bonus": 20
+    },
+    {
+      "name": "Art Qorrolli",
+      "initials": "AQ",
       "bonus": 20
     },
     {
@@ -219,12 +229,12 @@
       "pct": 100
     },
     {
-      "name": "Lea Buzhala",
-      "initials": "LB",
-      "id": "lea",
-      "meetings": 4,
-      "kpi": 3,
-      "pct": 100
+      "name": "Altin Krasniqi",
+      "initials": "AK",
+      "id": "altin",
+      "meetings": 2,
+      "kpi": 5,
+      "pct": 40
     }
   ],
   "allEarners": [
@@ -306,6 +316,17 @@
       "kpiProgressPct": 120
     },
     {
+      "name": "Altin Krasniqi",
+      "account": "Swimm",
+      "initials": "AK",
+      "id": "altin",
+      "meetings": 2,
+      "kpi": 5,
+      "bonus": 340,
+      "approved": true,
+      "kpiProgressPct": 40
+    },
+    {
       "name": "Lea Buzhala",
       "account": "Ledge",
       "initials": "LB",
@@ -326,17 +347,6 @@
       "bonus": 330,
       "approved": true,
       "kpiProgressPct": 100
-    },
-    {
-      "name": "Altin Krasniqi",
-      "account": "Swimm",
-      "initials": "AK",
-      "id": "altin",
-      "meetings": 1,
-      "kpi": 5,
-      "bonus": 320,
-      "approved": true,
-      "kpiProgressPct": 20
     },
     {
       "name": "Metodi Atanasov",
@@ -471,6 +481,17 @@
       "kpiProgressPct": 40
     },
     {
+      "name": "Natasa Dimovska",
+      "account": "Swimm",
+      "initials": "ND",
+      "id": "natasa",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 60,
+      "approved": true,
+      "kpiProgressPct": 20
+    },
+    {
       "name": " Milena Mitrushov",
       "account": "Amiy",
       "initials": "MM",
@@ -515,17 +536,6 @@
       "kpiProgressPct": 29
     },
     {
-      "name": "Natasa Dimovska",
-      "account": "Swimm",
-      "initials": "ND",
-      "id": "natasa",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 40,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": "Kristina Kostandinović",
       "account": "Amiy",
       "initials": "KK",
@@ -555,7 +565,7 @@
       "meetings": 1,
       "kpi": 5,
       "bonus": 20,
-      "approved": false,
+      "approved": true,
       "kpiProgressPct": 20
     },
     {
@@ -738,7 +748,7 @@
   "stats": {
     "totalRecords": 48,
     "aggregatedRows": 46,
-    "approvedCount": 28,
+    "approvedCount": 30,
     "uniqueSdrs": 43
   }
 }
