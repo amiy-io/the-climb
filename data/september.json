@@ -1,25 +1,30 @@
 {
   "month": "September",
   "monthFile": "september",
-  "generatedAt": "2026-09-30T10:03:47.787Z",
+  "generatedAt": "2026-09-30T11:02:08.711Z",
   "topEarner": {
-    "name": "Metodi Atanasov",
+    "name": "Josh G.",
     "account": "Flowx.ai",
-    "initials": "MA",
-    "id": "metodi",
-    "meetings": 10,
+    "initials": "JG",
+    "id": "josh",
+    "meetings": 9,
     "kpi": 7,
     "tier": 5,
-    "bonus": 780,
-    "baseBonus": 530,
+    "bonus": 850,
+    "baseBonus": 430,
     "extraBonus": 250,
-    "specialBonus": 0,
-    "kpiProgressPct": 143,
-    "overBy": 3,
-    "summary": "KPI smashed. 3 meetings over target."
+    "specialBonus": 170,
+    "kpiProgressPct": 129,
+    "overBy": 2,
+    "summary": "KPI smashed. 2 meetings over target."
   },
-  "paidOutTotal": 4980,
+  "paidOutTotal": 5390,
   "paidOut": [
+    {
+      "name": "Josh G.",
+      "initials": "JG",
+      "bonus": 850
+    },
     {
       "name": "Metodi Atanasov",
       "initials": "MA",
@@ -29,11 +34,6 @@
       "name": "Jovana Stojanovic",
       "initials": "JS",
       "bonus": 780
-    },
-    {
-      "name": "Josh G.",
-      "initials": "JG",
-      "bonus": 440
     },
     {
       "name": "Adnan Davutov",
@@ -143,6 +143,14 @@
   ],
   "seasonTrack": [
     {
+      "name": "Josh G.",
+      "initials": "JG",
+      "id": "josh",
+      "meetings": 9,
+      "kpi": 7,
+      "pct": 100
+    },
+    {
       "name": "Metodi Atanasov",
       "initials": "MA",
       "id": "metodi",
@@ -156,14 +164,6 @@
       "id": "jovana",
       "meetings": 10,
       "kpi": 10,
-      "pct": 100
-    },
-    {
-      "name": "Josh G.",
-      "initials": "JG",
-      "id": "josh",
-      "meetings": 6,
-      "kpi": 5,
       "pct": 100
     },
     {
@@ -209,6 +209,17 @@
   ],
   "allEarners": [
     {
+      "name": "Josh G.",
+      "account": "Flowx.ai",
+      "initials": "JG",
+      "id": "josh",
+      "meetings": 9,
+      "kpi": 7,
+      "bonus": 850,
+      "approved": true,
+      "kpiProgressPct": 129
+    },
+    {
       "name": "Metodi Atanasov",
       "account": "Flowx.ai",
       "initials": "MA",
@@ -229,17 +240,6 @@
       "bonus": 780,
       "approved": true,
       "kpiProgressPct": 100
-    },
-    {
-      "name": "Josh G.",
-      "account": "Flowx.ai",
-      "initials": "JG",
-      "id": "josh",
-      "meetings": 6,
-      "kpi": 5,
-      "bonus": 440,
-      "approved": true,
-      "kpiProgressPct": 120
     },
     {
       "name": "Adnan Davutov",
@@ -328,6 +328,17 @@
       "bonus": 130,
       "approved": true,
       "kpiProgressPct": 80
+    },
+    {
+      "name": "Erblin Ramusa",
+      "account": "Flowx.ai",
+      "initials": "ER",
+      "id": "erblin",
+      "meetings": 2,
+      "kpi": 6,
+      "bonus": 130,
+      "approved": false,
+      "kpiProgressPct": 33
     },
     {
       "name": "Rona Kingji",
@@ -677,17 +688,6 @@
       "id": "valdrin",
       "meetings": 0,
       "kpi": 8,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Erblin Ramusa",
-      "account": "Flowx.ai",
-      "initials": "ER",
-      "id": "erblin",
-      "meetings": 0,
-      "kpi": 6,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
