@@ -255,7 +255,9 @@ h2{margin:0;font-family:var(--display);font-weight:800;font-style:italic;font-si
 </div>
 
 <script>
-const DATA = {
+const DATA_URL = "data/september.json";
+
+const FALLBACK = {
   seasonLabel: "September 2026",
   seasonEnd: "2026-10-01T00:00:00",
   totalPlayersLogged: 43,
@@ -266,17 +268,72 @@ const DATA = {
   ]
 };
 
+const AWARDS = {
+  "Altin Krasniqi": { text: "Won the Shark Tank competition", label: "Shark Tank win" }
+};
+
+let DATA = FALLBACK, sdrs = [], totalBonus = 0, totalMeet = 0, lockedN = 0, KPI = 5, TRACK_MAX = 8;
+
+const pick = (o, ...keys) => { for (const k of keys) if (o && o[k] !== undefined && o[k] !== null && o[k] !== "") return o[k]; };
+const num = v => { const n = Number(v); return isFinite(n) ? n : 0; };
+const slug = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+function toPlayer(r, i){
+  const name = pick(r, "name", "sdrName", "sdr", "fullName") || "Unknown";
+  const bonus = num(pick(r, "bonus", "amount", "total", "totalBonus"));
+  const base = num(pick(r, "baseBonus"));
+  const extra = num(pick(r, "extraBonus", "aboveKpiBonus"));
+  const aw = AWARDS[name];
+  let breakdown = [];
+  if (aw) breakdown = [[aw.label, bonus]];
+  else {
+    if (base) breakdown.push(["Base bonus", base]);
+    if (extra) breakdown.push(["Above KPI", extra]);
+  }
+  return {
+    id: slug(name) + "-" + i,
+    name,
+    account: pick(r, "account", "accountName", "client") || (aw ? "Competition" : ""),
+    meetings: num(pick(r, "meetings", "sqls", "sqlCount", "approvedMeetings")),
+    kpi: num(pick(r, "kpi", "target")) || 5,
+    bonus,
+    award: aw ? aw.text : undefined,
+    breakdown
+  };
+}
+
+async function loadData(){
+  try {
+    const res = await fetch(DATA_URL + "?t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("no data");
+    const j = await res.json();
+    const approved = Array.isArray(j.paidOut) ? j.paidOut : [];
+    const all = Array.isArray(j.allEarners) ? j.allEarners : approved;
+    if (!approved.length) return FALLBACK;
+    return {
+      seasonLabel: j.seasonLabel || FALLBACK.seasonLabel,
+      seasonEnd: j.seasonEnd || FALLBACK.seasonEnd,
+      totalPlayersLogged: num(j.totalPlayers) || Math.max(all.length, approved.length),
+      sdrs: approved.map(toPlayer)
+    };
+  } catch (e) {
+    return FALLBACK;
+  }
+}
+
+function prepare(){
+  sdrs = [...DATA.sdrs].sort((a, b) => b.bonus - a.bonus || b.meetings - a.meetings);
+  totalBonus = sdrs.reduce((s, x) => s + x.bonus, 0);
+  totalMeet = sdrs.reduce((s, x) => s + x.meetings, 0);
+  lockedN = Math.max(0, DATA.totalPlayersLogged - sdrs.length);
+  KPI = sdrs.length ? Math.max(...sdrs.map(s => s.kpi)) : 5;
+  TRACK_MAX = KPI + 3;
+}
+
 const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const $ = id => document.getElementById(id);
 const money = n => "$" + Math.round(n).toLocaleString("en-US");
 const initials = n => n.replace(/\./g, "").split(/\s+/).map(p => p[0]).join("").slice(0, 2).toUpperCase();
-
-const sdrs = [...DATA.sdrs].sort((a, b) => b.bonus - a.bonus || b.meetings - a.meetings);
-const totalBonus = sdrs.reduce((s, x) => s + x.bonus, 0);
-const totalMeet = sdrs.reduce((s, x) => s + x.meetings, 0);
-const lockedN = Math.max(0, DATA.totalPlayersLogged - sdrs.length);
-const KPI = Math.max(...sdrs.map(s => s.kpi));
-const TRACK_MAX = KPI + 3;
 
 const TIERS = [
   { name: "Recruit", chev: 0 },
@@ -381,9 +438,9 @@ function renderCard(id){
         <div class="stat cham"><span>Approved</span><b>${sdrs.length}</b></div>
         <div class="stat cham money"><span>Paid out</span><b id="cardMoney">$0</b></div>
       </div>
-      <p class="next in">Their September meetings are logged. Approvals move them onto the board.</p>`;
+      <p class="next in">Their meetings are logged. Approvals move them onto the board.</p>`;
     countUp($("cardMoney"), totalBonus, money, 900);
-    fillTimer = setTimeout(() => { $("xpFill").style.width = (sdrs.length / DATA.totalPlayersLogged * 100) + "%"; }, reduce ? 0 : 120);
+    fillTimer = setTimeout(() => { $("xpFill").style.width = (DATA.totalPlayersLogged ? sdrs.length / DATA.totalPlayersLogged * 100 : 0) + "%"; }, reduce ? 0 : 120);
     return;
   }
   const s = sdrs.find(x => x.id === id);
@@ -523,9 +580,16 @@ function init(){
   tickClock(); setInterval(tickClock, 1000);
   sizeCanvas(); window.addEventListener("resize", sizeCanvas);
   renderRows(); renderLocked(); renderTrack(); renderVault(); tilt();
-  select(sdrs[0].id);
+  select(sdrs.length ? sdrs[0].id : "locked");
 }
-if (document.fonts && document.fonts.ready) document.fonts.ready.then(init); else init();
+
+async function boot(){
+  if (document.fonts && document.fonts.ready) await document.fonts.ready;
+  DATA = await loadData();
+  prepare();
+  init();
+}
+boot();
 </script>
 </body>
 </html>
