@@ -102,7 +102,7 @@ h2{margin:0;font-family:var(--display);font-weight:800;font-style:italic;font-si
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:24px}
 .stat{padding:12px 14px;background:rgba(0,21,44,.55);box-shadow:inset 0 0 0 1px var(--line);--cut:10px}
 .stat span{display:block;font-size:12px;font-weight:700;color:var(--ink-2)}
-.stat b{display:block;margin-top:2px;font-family:var(--display);font-weight:800;font-size:38px;line-height:1;font-variant-numeric:tabular-nums}
+.stat b{display:block;margin-top:2px;font-family:var(--display);font-weight:800;font-size:38px;line-height:1;font-variant-numeric:tabular-nums;text-transform:uppercase}
 .stat b small{font-size:20px;color:var(--ink-2);font-weight:700}
 .stat.money b{color:var(--yellow);text-shadow:0 0 18px rgba(246,202,19,.35)}
 .brk{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:12px;font-size:13px;font-weight:600;color:var(--ink-2)}
@@ -257,35 +257,34 @@ h2{margin:0;font-family:var(--display);font-weight:800;font-style:italic;font-si
 <script>
 const DATA_URL = "data/september.json";
 
+const AWARDS = {
+  "Altin Krasniqi": { text: "Won the Shark Tank competition", label: "Shark Tank" }
+};
+
 const FALLBACK = {
   seasonLabel: "September 2026",
   seasonEnd: "2026-10-01T00:00:00",
   totalPlayersLogged: 43,
   sdrs: [
     { id: "josh", name: "Josh G.", account: "Flowx.ai", meetings: 6, kpi: 5, bonus: 440, breakdown: [["Base bonus", 190], ["Above KPI", 250]] },
-    { id: "altin", name: "Altin Krasniqi", account: "Shark Tank", meetings: 0, kpi: 5, bonus: 300, award: "Won the Shark Tank competition", breakdown: [["Shark Tank win", 300]] },
+    { id: "altin", name: "Altin Krasniqi", account: "Swimm", meetings: 0, kpi: 5, bonus: 300, award: AWARDS["Altin Krasniqi"].text, awardLabel: "Shark Tank", breakdown: [["Shark Tank win", 300]] },
     { id: "gentian", name: "Gentian Elezi", account: "Swimm", meetings: 1, kpi: 5, bonus: 70, breakdown: [] }
   ]
 };
 
-const AWARDS = {
-  "Altin Krasniqi": { text: "Won the Shark Tank competition", label: "Shark Tank win" }
-};
-
 let DATA = FALLBACK, sdrs = [], totalBonus = 0, totalMeet = 0, lockedN = 0, KPI = 5, TRACK_MAX = 8;
 
-const pick = (o, ...keys) => { for (const k of keys) if (o && o[k] !== undefined && o[k] !== null && o[k] !== "") return o[k]; };
 const num = v => { const n = Number(v); return isFinite(n) ? n : 0; };
 const slug = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 function toPlayer(r, i){
-  const name = pick(r, "name", "sdrName", "sdr", "fullName") || "Unknown";
-  const bonus = num(pick(r, "bonus", "amount", "total", "totalBonus"));
-  const base = num(pick(r, "baseBonus"));
-  const extra = num(pick(r, "extraBonus", "aboveKpiBonus"));
+  const name = r.name || "Unknown";
+  const bonus = num(r.bonus);
+  const base = num(r.baseBonus);
+  const extra = num(r.extraBonus);
   const aw = AWARDS[name];
   let breakdown = [];
-  if (aw) breakdown = [[aw.label, bonus]];
+  if (aw) breakdown = [[aw.label + " win", bonus]];
   else {
     if (base) breakdown.push(["Base bonus", base]);
     if (extra) breakdown.push(["Above KPI", extra]);
@@ -293,11 +292,12 @@ function toPlayer(r, i){
   return {
     id: slug(name) + "-" + i,
     name,
-    account: pick(r, "account", "accountName", "client") || (aw ? "Competition" : ""),
-    meetings: num(pick(r, "meetings", "sqls", "sqlCount", "approvedMeetings")),
-    kpi: num(pick(r, "kpi", "target")) || 5,
+    account: r.account || "",
+    meetings: num(r.meetings),
+    kpi: num(r.kpi) || 5,
     bonus,
     award: aw ? aw.text : undefined,
+    awardLabel: aw ? aw.label : undefined,
     breakdown
   };
 }
@@ -307,13 +307,16 @@ async function loadData(){
     const res = await fetch(DATA_URL + "?t=" + Date.now(), { cache: "no-store" });
     if (!res.ok) throw new Error("no data");
     const j = await res.json();
-    const approved = Array.isArray(j.paidOut) ? j.paidOut : [];
-    const all = Array.isArray(j.allEarners) ? j.allEarners : approved;
+    const all = Array.isArray(j.allEarners) ? j.allEarners : [];
+    let approved = all.filter(r => r.approved === true);
     if (!approved.length) return FALLBACK;
+    const te = j.topEarner || {};
+    approved = approved.map(r => (te.name === r.name && te.account === r.account) ? Object.assign({}, te, r) : r);
+    const year = j.generatedAt ? new Date(j.generatedAt).getFullYear() : 2026;
     return {
-      seasonLabel: j.seasonLabel || FALLBACK.seasonLabel,
-      seasonEnd: j.seasonEnd || FALLBACK.seasonEnd,
-      totalPlayersLogged: num(j.totalPlayers) || Math.max(all.length, approved.length),
+      seasonLabel: j.month ? `${j.month} ${year}` : FALLBACK.seasonLabel,
+      seasonEnd: FALLBACK.seasonEnd,
+      totalPlayersLogged: new Set(all.map(r => r.name)).size,
       sdrs: approved.map(toPlayer)
     };
   } catch (e) {
@@ -325,7 +328,7 @@ function prepare(){
   sdrs = [...DATA.sdrs].sort((a, b) => b.bonus - a.bonus || b.meetings - a.meetings);
   totalBonus = sdrs.reduce((s, x) => s + x.bonus, 0);
   totalMeet = sdrs.reduce((s, x) => s + x.meetings, 0);
-  lockedN = Math.max(0, DATA.totalPlayersLogged - sdrs.length);
+  lockedN = Math.max(0, DATA.totalPlayersLogged - new Set(sdrs.map(s => s.name)).size);
   KPI = sdrs.length ? Math.max(...sdrs.map(s => s.kpi)) : 5;
   TRACK_MAX = KPI + 3;
 }
@@ -334,6 +337,7 @@ const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const $ = id => document.getElementById(id);
 const money = n => "$" + Math.round(n).toLocaleString("en-US");
 const initials = n => n.replace(/\./g, "").split(/\s+/).map(p => p[0]).join("").slice(0, 2).toUpperCase();
+const isAward = s => !!s.award && !s.meetings;
 
 const TIERS = [
   { name: "Recruit", chev: 0 },
@@ -343,6 +347,7 @@ const TIERS = [
   { name: "Legend", chev: 3, star: true }
 ];
 function tierOf(s){
+  if (isAward(s)) return 3;
   if (s.meetings > s.kpi) return 4;
   if (s.meetings === s.kpi) return 3;
   if (s.meetings / s.kpi >= 0.6) return 2;
@@ -432,34 +437,37 @@ function renderCard(id){
       <div class="ctop in"><span>${lockedN} players</span><span class="rk">Locked</span></div>
       <div class="cmain in"><div class="emb steel"><div class="halo"></div>${emblem(0, true)}</div>
         <div><div class="acct">Waiting on approval</div><h1 class="pname">Basecamp</h1>
-        <div class="xp"><div class="xpl"><span>Players approved</span><b>${sdrs.length} / ${DATA.totalPlayersLogged}</b></div><div class="xpbar"><i id="xpFill"></i></div></div></div></div>
+        <div class="xp"><div class="xpl"><span>Players approved</span><b>${DATA.totalPlayersLogged - lockedN} / ${DATA.totalPlayersLogged}</b></div><div class="xpbar"><i id="xpFill"></i></div></div></div></div>
       <div class="stats in">
         <div class="stat cham"><span>Locked players</span><b>${lockedN}</b></div>
-        <div class="stat cham"><span>Approved</span><b>${sdrs.length}</b></div>
+        <div class="stat cham"><span>Approved</span><b>${DATA.totalPlayersLogged - lockedN}</b></div>
         <div class="stat cham money"><span>Paid out</span><b id="cardMoney">$0</b></div>
       </div>
       <p class="next in">Their meetings are logged. Approvals move them onto the board.</p>`;
     countUp($("cardMoney"), totalBonus, money, 900);
-    fillTimer = setTimeout(() => { $("xpFill").style.width = (DATA.totalPlayersLogged ? sdrs.length / DATA.totalPlayersLogged * 100 : 0) + "%"; }, reduce ? 0 : 120);
+    fillTimer = setTimeout(() => { $("xpFill").style.width = (DATA.totalPlayersLogged ? (DATA.totalPlayersLogged - lockedN) / DATA.totalPlayersLogged * 100 : 0) + "%"; }, reduce ? 0 : 120);
     return;
   }
   const s = sdrs.find(x => x.id === id);
   const pos = sdrs.indexOf(s) + 1;
+  const aw = isAward(s);
   const t = tierOf(s);
-  const pct = Math.round(s.meetings / s.kpi * 100);
-  const over = Math.max(0, s.meetings - s.kpi);
+  const pct = aw ? 100 : Math.round(s.meetings / s.kpi * 100);
+  const over = aw ? 0 : Math.max(0, s.meetings - s.kpi);
   const left = s.kpi - s.meetings;
-  const next = s.award && s.meetings < s.kpi ? `${s.award}. Bonus unlocked.`
+  const next = aw ? `${s.award}. Bonus unlocked.`
     : left > 0 ? `${left} more ${left === 1 ? "meeting" : "meetings"} to hit Summit.`
     : over > 0 ? `KPI smashed. ${over} ${over === 1 ? "meeting" : "meetings"} over target.` : "Summit reached. Every meeting from here is overdrive.";
   const brk = s.breakdown.length ? `<div class="brk in">${s.breakdown.map(([k, v]) => `<span>${k} <b>${money(v)}</b></span>`).join("")}</div>` : "";
+  const xpLabel = aw ? `<span>${s.awardLabel}</span><b>Winner</b>` : `<span>KPI progress</span><b>${pct}%${over ? `<span class="overtag">+${over}</span>` : ""}</b>`;
+  const firstStat = aw ? `<div class="stat cham"><span>Award</span><b>Win</b></div>` : `<div class="stat cham"><span>Meetings</span><b>${s.meetings}<small>/${s.kpi}</small></b></div>`;
   body.innerHTML = `
-    <div class="ctop in"><span>Rank #${pos}</span><span class="rk">${TIERS[t].name}</span></div>
+    <div class="ctop in"><span>Rank #${pos}</span><span class="rk">${aw ? "Champion" : TIERS[t].name}</span></div>
     <div class="cmain in"><div class="emb ${t >= 3 ? "" : "steel"}"><div class="halo"></div>${emblem(t)}</div>
       <div><div class="acct">${s.account}</div><h1 class="pname">${s.name}</h1>
-      <div class="xp"><div class="xpl"><span>KPI progress</span><b>${pct}%${over ? `<span class="overtag">+${over}</span>` : ""}</b></div><div class="xpbar" id="xpBar"><i id="xpFill"></i><div class="ticks"></div></div></div></div></div>
+      <div class="xp"><div class="xpl">${xpLabel}</div><div class="xpbar" id="xpBar"><i id="xpFill"></i><div class="ticks"></div></div></div></div></div>
     <div class="stats in">
-      <div class="stat cham"><span>Meetings</span><b>${s.meetings}<small>/${s.kpi}</small></b></div>
+      ${firstStat}
       <div class="stat cham"><span>Tier</span><b>${t + 1}<small>/5</small></b></div>
       <div class="stat cham money"><span>Bonus</span><b id="cardMoney">$0</b></div>
     </div>
@@ -469,7 +477,7 @@ function renderCard(id){
   fillTimer = setTimeout(() => {
     const f = $("xpFill");
     f.style.width = Math.min(100, pct) + "%";
-    if (s.meetings >= s.kpi){
+    if (aw || s.meetings >= s.kpi){
       setTimeout(() => {
         const bar = $("xpBar"); if (!bar) return;
         bar.classList.add("over");
@@ -481,12 +489,17 @@ function renderCard(id){
 }
 
 function renderRows(){
-  $("rows").innerHTML = sdrs.map((s, i) => `
-    <button class="row cham${i === 0 ? " first" : ""}" data-id="${s.id}" type="button" aria-label="${s.name}, ${s.meetings} of ${s.kpi} meetings, ${money(s.bonus)}">
+  $("rows").innerHTML = sdrs.map((s, i) => {
+    const aw = isAward(s);
+    const sub = aw ? `${s.awardLabel} winner` : `${s.account} &nbsp;${s.meetings}/${s.kpi} meetings`;
+    const w = aw ? 100 : Math.min(100, s.meetings / s.kpi * 100);
+    return `
+    <button class="row cham${i === 0 ? " first" : ""}" data-id="${s.id}" type="button" aria-label="${s.name}, ${money(s.bonus)}">
       <span class="rpos">${i + 1}</span>${emblem(tierOf(s))}
-      <span class="rwho"><b>${s.name}</b><span>${s.account} &nbsp;${s.award && !s.meetings ? "Competition win" : `${s.meetings}/${s.kpi} meetings`}</span><span class="rbar"><i style="width:${Math.min(100, s.meetings / s.kpi * 100)}%"></i></span></span>
+      <span class="rwho"><b>${s.name}</b><span>${sub}</span><span class="rbar"><i style="width:${w}%"></i></span></span>
       <span class="ramt">${money(s.bonus)}</span>
-    </button>`).join("");
+    </button>`;
+  }).join("");
   $("rows").querySelectorAll(".row").forEach(r => r.addEventListener("click", () => select(r.dataset.id)));
 }
 
@@ -522,7 +535,8 @@ function updateTrack(id){
     mk.style.left = (Math.min(p.meetings, TRACK_MAX) / TRACK_MAX * 100) + "%";
     mk.classList.toggle("sel", mk.dataset.id === id);
   });
-  $("trackHint").textContent = s ? `${s.name}: ${s.meetings} of ${s.kpi}` : "Approve players to put them on the track";
+  $("trackHint").textContent = !s ? "Approve players to put them on the track"
+    : isAward(s) ? `${s.name}: ${s.awardLabel} winner` : `${s.name}: ${s.meetings} of ${s.kpi}`;
 }
 
 function renderVault(){
@@ -576,7 +590,7 @@ function init(){
   $("season").textContent = `Season: ${DATA.seasonLabel}`;
   countUp($("hPool"), totalBonus, money, 1400);
   countUp($("hMeet"), totalMeet, v => Math.round(v).toString(), 1400);
-  $("hPlay").textContent = `${sdrs.length}/${DATA.totalPlayersLogged}`;
+  $("hPlay").textContent = `${DATA.totalPlayersLogged - lockedN}/${DATA.totalPlayersLogged}`;
   tickClock(); setInterval(tickClock, 1000);
   sizeCanvas(); window.addEventListener("resize", sizeCanvas);
   renderRows(); renderLocked(); renderTrack(); renderVault(); tilt();
