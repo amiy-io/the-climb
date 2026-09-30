@@ -1,25 +1,30 @@
 {
   "month": "September",
   "monthFile": "september",
-  "generatedAt": "2026-09-30T13:01:31.173Z",
+  "generatedAt": "2026-09-30T14:01:40.982Z",
   "topEarner": {
-    "name": "Josh G.",
-    "account": "Flowx.ai",
-    "initials": "JG",
-    "id": "josh",
-    "meetings": 9,
-    "kpi": 7,
-    "tier": 5,
-    "bonus": 850,
-    "baseBonus": 430,
-    "extraBonus": 250,
-    "specialBonus": 170,
-    "kpiProgressPct": 129,
-    "overBy": 2,
-    "summary": "KPI smashed. 2 meetings over target."
+    "name": "Vesa Kelmendi",
+    "account": "Claim tech",
+    "initials": "VK",
+    "id": "vesa",
+    "meetings": 1,
+    "kpi": 5,
+    "tier": 1,
+    "bonus": 1670,
+    "baseBonus": 20,
+    "extraBonus": 0,
+    "specialBonus": 1650,
+    "kpiProgressPct": 20,
+    "overBy": -4,
+    "summary": "4 meetings to go to hit KPI."
   },
-  "paidOutTotal": 5680,
+  "paidOutTotal": 7280,
   "paidOut": [
+    {
+      "name": "Vesa Kelmendi",
+      "initials": "VK",
+      "bonus": 1670
+    },
     {
       "name": "Josh G.",
       "initials": "JG",
@@ -91,11 +96,6 @@
       "bonus": 80
     },
     {
-      "name": "Vesa Kelmendi",
-      "initials": "VK",
-      "bonus": 70
-    },
-    {
       "name": "Gentian Elezi",
       "initials": "GE",
       "bonus": 70
@@ -163,6 +163,14 @@
   ],
   "seasonTrack": [
     {
+      "name": "Vesa Kelmendi",
+      "initials": "VK",
+      "id": "vesa",
+      "meetings": 1,
+      "kpi": 5,
+      "pct": 20
+    },
+    {
       "name": "Josh G.",
       "initials": "JG",
       "id": "josh",
@@ -217,17 +225,20 @@
       "meetings": 1,
       "kpi": 5,
       "pct": 20
-    },
-    {
-      "name": "Metodi Atanasov",
-      "initials": "MA",
-      "id": "metodi",
-      "meetings": 3,
-      "kpi": 3,
-      "pct": 100
     }
   ],
   "allEarners": [
+    {
+      "name": "Vesa Kelmendi",
+      "account": "Claim tech",
+      "initials": "VK",
+      "id": "vesa",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 1670,
+      "approved": true,
+      "kpiProgressPct": 20
+    },
     {
       "name": "Josh G.",
       "account": "Flowx.ai",
@@ -381,17 +392,6 @@
       "bonus": 80,
       "approved": true,
       "kpiProgressPct": 57
-    },
-    {
-      "name": "Vesa Kelmendi",
-      "account": "Claim tech",
-      "initials": "VK",
-      "id": "vesa",
-      "meetings": 1,
-      "kpi": 5,
-      "bonus": 70,
-      "approved": true,
-      "kpiProgressPct": 20
     },
     {
       "name": "Gentian Elezi",
