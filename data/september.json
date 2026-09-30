@@ -1,30 +1,25 @@
 {
   "month": "September",
   "monthFile": "september",
-  "generatedAt": "2026-09-30T14:01:40.982Z",
+  "generatedAt": "2026-09-30T15:04:46.962Z",
   "topEarner": {
-    "name": "Vesa Kelmendi",
-    "account": "Claim tech",
-    "initials": "VK",
-    "id": "vesa",
-    "meetings": 1,
-    "kpi": 5,
-    "tier": 1,
-    "bonus": 1670,
-    "baseBonus": 20,
-    "extraBonus": 0,
-    "specialBonus": 1650,
-    "kpiProgressPct": 20,
-    "overBy": -4,
-    "summary": "4 meetings to go to hit KPI."
+    "name": "Josh G.",
+    "account": "Flowx.ai",
+    "initials": "JG",
+    "id": "josh",
+    "meetings": 9,
+    "kpi": 7,
+    "tier": 5,
+    "bonus": 850,
+    "baseBonus": 430,
+    "extraBonus": 250,
+    "specialBonus": 170,
+    "kpiProgressPct": 129,
+    "overBy": 2,
+    "summary": "KPI smashed. 2 meetings over target."
   },
-  "paidOutTotal": 7280,
+  "paidOutTotal": 7020,
   "paidOut": [
-    {
-      "name": "Vesa Kelmendi",
-      "initials": "VK",
-      "bonus": 1670
-    },
     {
       "name": "Josh G.",
       "initials": "JG",
@@ -43,12 +38,27 @@
     {
       "name": "Rea Bitri",
       "initials": "RB",
-      "bonus": 450
+      "bonus": 510
+    },
+    {
+      "name": "Marija Dedic",
+      "initials": "MD",
+      "bonus": 500
+    },
+    {
+      "name": "Vesa Kelmendi",
+      "initials": "VK",
+      "bonus": 470
     },
     {
       "name": "Adnan Davutov",
       "initials": "AD",
       "bonus": 440
+    },
+    {
+      "name": "Lea Buzhala",
+      "initials": "LB",
+      "bonus": 330
     },
     {
       "name": "Metodi Atanasov",
@@ -71,19 +81,24 @@
       "bonus": 270
     },
     {
+      "name": "Elida Avdimetaj",
+      "initials": "EA",
+      "bonus": 260
+    },
+    {
       "name": "Rona Kingji",
       "initials": "RK",
       "bonus": 210
     },
     {
-      "name": "Gerard Daberdaku",
-      "initials": "GD",
-      "bonus": 190
-    },
-    {
       "name": "Erblin Ramusa",
       "initials": "ER",
       "bonus": 130
+    },
+    {
+      "name": "Vladan Koprivnica",
+      "initials": "VK",
+      "bonus": 80
     },
     {
       "name": "Flamur Osmani",
@@ -106,14 +121,9 @@
       "bonus": 60
     },
     {
-      "name": "Vladan Koprivnica",
-      "initials": "VK",
+      "name": "Medina Gashi",
+      "initials": "MG",
       "bonus": 60
-    },
-    {
-      "name": "Lea Buzhala",
-      "initials": "LB",
-      "bonus": 40
     },
     {
       "name": " Milena Mitrushov",
@@ -136,11 +146,6 @@
       "bonus": 40
     },
     {
-      "name": "Elida Avdimetaj",
-      "initials": "EA",
-      "bonus": 40
-    },
-    {
       "name": "Kristina Kostandinović",
       "initials": "KK",
       "bonus": 20
@@ -151,25 +156,12 @@
       "bonus": 20
     },
     {
-      "name": "Medina Gashi",
-      "initials": "MG",
-      "bonus": 20
-    },
-    {
       "name": "Elena Ristovska",
       "initials": "ER",
       "bonus": 0
     }
   ],
   "seasonTrack": [
-    {
-      "name": "Vesa Kelmendi",
-      "initials": "VK",
-      "id": "vesa",
-      "meetings": 1,
-      "kpi": 5,
-      "pct": 20
-    },
     {
       "name": "Josh G.",
       "initials": "JG",
@@ -198,9 +190,25 @@
       "name": "Rea Bitri",
       "initials": "RB",
       "id": "rea",
-      "meetings": 5,
+      "meetings": 6,
       "kpi": 5,
       "pct": 100
+    },
+    {
+      "name": "Marija Dedic",
+      "initials": "MD",
+      "id": "marija",
+      "meetings": 0,
+      "kpi": 1,
+      "pct": 0
+    },
+    {
+      "name": "Vesa Kelmendi",
+      "initials": "VK",
+      "id": "vesa",
+      "meetings": 1,
+      "kpi": 5,
+      "pct": 20
     },
     {
       "name": "Adnan Davutov",
@@ -211,34 +219,15 @@
       "pct": 100
     },
     {
-      "name": "Metodi Atanasov",
-      "initials": "MA",
-      "id": "metodi",
+      "name": "Lea Buzhala",
+      "initials": "LB",
+      "id": "lea",
       "meetings": 4,
-      "kpi": 4,
+      "kpi": 3,
       "pct": 100
-    },
-    {
-      "name": "Altin Krasniqi",
-      "initials": "AK",
-      "id": "altin",
-      "meetings": 1,
-      "kpi": 5,
-      "pct": 20
     }
   ],
   "allEarners": [
-    {
-      "name": "Vesa Kelmendi",
-      "account": "Claim tech",
-      "initials": "VK",
-      "id": "vesa",
-      "meetings": 1,
-      "kpi": 5,
-      "bonus": 1670,
-      "approved": true,
-      "kpiProgressPct": 20
-    },
     {
       "name": "Josh G.",
       "account": "Flowx.ai",
@@ -277,11 +266,33 @@
       "account": "Flowx.ai",
       "initials": "RB",
       "id": "rea",
-      "meetings": 5,
+      "meetings": 6,
       "kpi": 5,
-      "bonus": 450,
+      "bonus": 510,
       "approved": true,
-      "kpiProgressPct": 100
+      "kpiProgressPct": 120
+    },
+    {
+      "name": "Marija Dedic",
+      "account": "Actifile",
+      "initials": "MD",
+      "id": "marija",
+      "meetings": 0,
+      "kpi": 1,
+      "bonus": 500,
+      "approved": true,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Vesa Kelmendi",
+      "account": "Claim tech",
+      "initials": "VK",
+      "id": "vesa",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 470,
+      "approved": true,
+      "kpiProgressPct": 20
     },
     {
       "name": "Adnan Davutov",
@@ -293,6 +304,17 @@
       "bonus": 440,
       "approved": true,
       "kpiProgressPct": 120
+    },
+    {
+      "name": "Lea Buzhala",
+      "account": "Ledge",
+      "initials": "LB",
+      "id": "lea",
+      "meetings": 4,
+      "kpi": 3,
+      "bonus": 330,
+      "approved": true,
+      "kpiProgressPct": 133
     },
     {
       "name": "Metodi Atanasov",
@@ -339,6 +361,28 @@
       "kpiProgressPct": 57
     },
     {
+      "name": "Gerard Daberdaku",
+      "account": "Network box USA",
+      "initials": "GD",
+      "id": "gerard",
+      "meetings": 7,
+      "kpi": 8,
+      "bonus": 260,
+      "approved": false,
+      "kpiProgressPct": 88
+    },
+    {
+      "name": "Elida Avdimetaj",
+      "account": "Draftt.io",
+      "initials": "EA",
+      "id": "elida",
+      "meetings": 4,
+      "kpi": 5,
+      "bonus": 260,
+      "approved": true,
+      "kpiProgressPct": 80
+    },
+    {
       "name": "Rona Kingji",
       "account": "Flowx.ai",
       "initials": "RK",
@@ -350,17 +394,6 @@
       "kpiProgressPct": 40
     },
     {
-      "name": "Gerard Daberdaku",
-      "account": "Network box USA",
-      "initials": "GD",
-      "id": "gerard",
-      "meetings": 6,
-      "kpi": 10,
-      "bonus": 190,
-      "approved": true,
-      "kpiProgressPct": 60
-    },
-    {
       "name": "Erblin Ramusa",
       "account": "Flowx.ai",
       "initials": "ER",
@@ -370,6 +403,17 @@
       "bonus": 130,
       "approved": true,
       "kpiProgressPct": 33
+    },
+    {
+      "name": "Vladan Koprivnica",
+      "account": "Guardz",
+      "initials": "VK",
+      "id": "vladan",
+      "meetings": 4,
+      "kpi": 10,
+      "bonus": 80,
+      "approved": true,
+      "kpiProgressPct": 40
     },
     {
       "name": "Flamur Osmani",
@@ -416,26 +460,15 @@
       "kpiProgressPct": 38
     },
     {
-      "name": "Vladan Koprivnica",
-      "account": "Guardz",
-      "initials": "VK",
-      "id": "vladan",
-      "meetings": 3,
-      "kpi": 10,
+      "name": "Medina Gashi",
+      "account": "Draftt.io",
+      "initials": "MG",
+      "id": "medina",
+      "meetings": 2,
+      "kpi": 5,
       "bonus": 60,
       "approved": true,
-      "kpiProgressPct": 30
-    },
-    {
-      "name": "Lea Buzhala",
-      "account": "Ledge",
-      "initials": "LB",
-      "id": "lea",
-      "meetings": 2,
-      "kpi": 3,
-      "bonus": 40,
-      "approved": true,
-      "kpiProgressPct": 67
+      "kpiProgressPct": 40
     },
     {
       "name": " Milena Mitrushov",
@@ -482,17 +515,6 @@
       "kpiProgressPct": 29
     },
     {
-      "name": "Elida Avdimetaj",
-      "account": "Draftt.io",
-      "initials": "EA",
-      "id": "elida",
-      "meetings": 2,
-      "kpi": 5,
-      "bonus": 40,
-      "approved": true,
-      "kpiProgressPct": 40
-    },
-    {
       "name": "Natasa Dimovska",
       "account": "Swimm",
       "initials": "ND",
@@ -526,14 +548,14 @@
       "kpiProgressPct": 33
     },
     {
-      "name": "Medina Gashi",
-      "account": "Draftt.io",
-      "initials": "MG",
-      "id": "medina",
+      "name": "Art Qorrolli",
+      "account": "Swimm",
+      "initials": "AQ",
+      "id": "art",
       "meetings": 1,
       "kpi": 5,
       "bonus": 20,
-      "approved": true,
+      "approved": false,
       "kpiProgressPct": 20
     },
     {
@@ -636,17 +658,6 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Art Qorrolli",
-      "account": "Swimm",
-      "initials": "AQ",
-      "id": "art",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": "Adi Hasaković",
       "account": "Swimm",
       "initials": "AH",
@@ -725,9 +736,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 47,
-    "aggregatedRows": 45,
+    "totalRecords": 48,
+    "aggregatedRows": 46,
     "approvedCount": 28,
-    "uniqueSdrs": 42
+    "uniqueSdrs": 43
   }
 }
