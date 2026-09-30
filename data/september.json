@@ -1,7 +1,7 @@
 {
   "month": "September",
   "monthFile": "september",
-  "generatedAt": "2026-09-30T12:03:50.405Z",
+  "generatedAt": "2026-09-30T12:13:26.617Z",
   "topEarner": {
     "name": "Josh G.",
     "account": "Flowx.ai",
@@ -18,7 +18,7 @@
     "overBy": 2,
     "summary": "KPI smashed. 2 meetings over target."
   },
-  "paidOutTotal": 5390,
+  "paidOutTotal": 5860,
   "paidOut": [
     {
       "name": "Josh G.",
@@ -41,6 +41,11 @@
       "bonus": 440
     },
     {
+      "name": "Rea Bitri",
+      "initials": "RB",
+      "bonus": 430
+    },
+    {
       "name": "Lea Buzhala",
       "initials": "LB",
       "bonus": 330
@@ -51,14 +56,14 @@
       "bonus": 330
     },
     {
+      "name": "Altin Krasniqi",
+      "initials": "AK",
+      "bonus": 320
+    },
+    {
       "name": "Metodi Atanasov",
       "initials": "MA",
       "bonus": 310
-    },
-    {
-      "name": "Altin Krasniqi",
-      "initials": "AK",
-      "bonus": 300
     },
     {
       "name": "Rrezart Shkodra",
@@ -71,8 +76,8 @@
       "bonus": 190
     },
     {
-      "name": "Rea Bitri",
-      "initials": "RB",
+      "name": "Erblin Ramusa",
+      "initials": "ER",
       "bonus": 130
     },
     {
@@ -136,6 +141,11 @@
       "bonus": 20
     },
     {
+      "name": "Rey Chevere",
+      "initials": "RC",
+      "bonus": 20
+    },
+    {
       "name": "Medina Gashi",
       "initials": "MG",
       "bonus": 20
@@ -175,6 +185,14 @@
       "pct": 100
     },
     {
+      "name": "Rea Bitri",
+      "initials": "RB",
+      "id": "rea",
+      "meetings": 5,
+      "kpi": 5,
+      "pct": 100
+    },
+    {
       "name": "Lea Buzhala",
       "initials": "LB",
       "id": "lea",
@@ -191,20 +209,12 @@
       "pct": 100
     },
     {
-      "name": "Metodi Atanasov",
-      "initials": "MA",
-      "id": "metodi",
-      "meetings": 3,
-      "kpi": 3,
-      "pct": 100
-    },
-    {
       "name": "Altin Krasniqi",
       "initials": "AK",
       "id": "altin",
-      "meetings": 0,
+      "meetings": 1,
       "kpi": 5,
-      "pct": 0
+      "pct": 20
     }
   ],
   "allEarners": [
@@ -253,6 +263,17 @@
       "kpiProgressPct": 120
     },
     {
+      "name": "Rea Bitri",
+      "account": "Flowx.ai",
+      "initials": "RB",
+      "id": "rea",
+      "meetings": 5,
+      "kpi": 5,
+      "bonus": 430,
+      "approved": true,
+      "kpiProgressPct": 100
+    },
+    {
       "name": "Lea Buzhala",
       "account": "Ledge",
       "initials": "LB",
@@ -275,6 +296,17 @@
       "kpiProgressPct": 100
     },
     {
+      "name": "Altin Krasniqi",
+      "account": "Swimm",
+      "initials": "AK",
+      "id": "altin",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 320,
+      "approved": true,
+      "kpiProgressPct": 20
+    },
+    {
       "name": "Metodi Atanasov",
       "account": "Ledge",
       "initials": "MA",
@@ -284,17 +316,6 @@
       "bonus": 310,
       "approved": true,
       "kpiProgressPct": 100
-    },
-    {
-      "name": "Altin Krasniqi",
-      "account": "Swimm",
-      "initials": "AK",
-      "id": "altin",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 300,
-      "approved": true,
-      "kpiProgressPct": 0
     },
     {
       "name": "Rrezart Shkodra",
@@ -319,17 +340,6 @@
       "kpiProgressPct": 60
     },
     {
-      "name": "Rea Bitri",
-      "account": "Flowx.ai",
-      "initials": "RB",
-      "id": "rea",
-      "meetings": 4,
-      "kpi": 5,
-      "bonus": 130,
-      "approved": true,
-      "kpiProgressPct": 80
-    },
-    {
       "name": "Erblin Ramusa",
       "account": "Flowx.ai",
       "initials": "ER",
@@ -337,7 +347,7 @@
       "meetings": 2,
       "kpi": 6,
       "bonus": 130,
-      "approved": false,
+      "approved": true,
       "kpiProgressPct": 33
     },
     {
@@ -491,7 +501,7 @@
       "meetings": 1,
       "kpi": 3,
       "bonus": 20,
-      "approved": false,
+      "approved": true,
       "kpiProgressPct": 33
     },
     {
@@ -707,7 +717,7 @@
   "stats": {
     "totalRecords": 47,
     "aggregatedRows": 45,
-    "approvedCount": 24,
+    "approvedCount": 26,
     "uniqueSdrs": 42
   }
 }
