@@ -1,7 +1,7 @@
 {
   "month": "September",
   "monthFile": "september",
-  "generatedAt": "2026-09-30T18:04:51.275Z",
+  "generatedAt": "2026-09-30T19:07:03.860Z",
   "topEarner": {
     "name": "Josh G.",
     "account": "Flowx.ai",
@@ -18,7 +18,7 @@
     "overBy": 2,
     "summary": "KPI smashed. 2 meetings over target."
   },
-  "paidOutTotal": 7860,
+  "paidOutTotal": 7880,
   "paidOut": [
     {
       "name": "Josh G.",
@@ -101,6 +101,11 @@
       "bonus": 130
     },
     {
+      "name": "George Bugarovic",
+      "initials": "GB",
+      "bonus": 80
+    },
+    {
       "name": "Vladan Koprivnica",
       "initials": "VK",
       "bonus": 80
@@ -119,11 +124,6 @@
       "name": "Gentian Elezi",
       "initials": "GE",
       "bonus": 70
-    },
-    {
-      "name": "George Bugarovic",
-      "initials": "GB",
-      "bonus": 60
     },
     {
       "name": "Medina Gashi",
@@ -440,6 +440,17 @@
       "kpiProgressPct": 33
     },
     {
+      "name": "George Bugarovic",
+      "account": "Eyesover",
+      "initials": "GB",
+      "id": "george",
+      "meetings": 4,
+      "kpi": 8,
+      "bonus": 80,
+      "approved": true,
+      "kpiProgressPct": 50
+    },
+    {
       "name": "Vladan Koprivnica",
       "account": "Guardz",
       "initials": "VK",
@@ -482,17 +493,6 @@
       "bonus": 70,
       "approved": true,
       "kpiProgressPct": 20
-    },
-    {
-      "name": "George Bugarovic",
-      "account": "Eyesover",
-      "initials": "GB",
-      "id": "george",
-      "meetings": 3,
-      "kpi": 8,
-      "bonus": 60,
-      "approved": true,
-      "kpiProgressPct": 38
     },
     {
       "name": "Medina Gashi",
