@@ -1,7 +1,7 @@
 {
   "month": "September",
   "monthFile": "september",
-  "generatedAt": "2026-09-30T09:37:01.462Z",
+  "generatedAt": "2026-09-30T10:03:47.787Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Flowx.ai",
@@ -18,7 +18,7 @@
     "overBy": 3,
     "summary": "KPI smashed. 3 meetings over target."
   },
-  "paidOutTotal": 4780,
+  "paidOutTotal": 4980,
   "paidOut": [
     {
       "name": "Metodi Atanasov",
@@ -38,7 +38,7 @@
     {
       "name": "Adnan Davutov",
       "initials": "AD",
-      "bonus": 380
+      "bonus": 440
     },
     {
       "name": "Lea Buzhala",
@@ -61,14 +61,14 @@
       "bonus": 300
     },
     {
+      "name": "Rrezart Shkodra",
+      "initials": "RS",
+      "bonus": 270
+    },
+    {
       "name": "Gerard Daberdaku",
       "initials": "GD",
       "bonus": 190
-    },
-    {
-      "name": "Liza Krivaça",
-      "initials": "LK",
-      "bonus": 130
     },
     {
       "name": "Rea Bitri",
@@ -86,8 +86,8 @@
       "bonus": 80
     },
     {
-      "name": "Rrezart Shkodra",
-      "initials": "RS",
+      "name": "Liza Krivaça",
+      "initials": "LK",
       "bonus": 80
     },
     {
@@ -170,7 +170,7 @@
       "name": "Adnan Davutov",
       "initials": "AD",
       "id": "adnan",
-      "meetings": 5,
+      "meetings": 6,
       "kpi": 5,
       "pct": 100
     },
@@ -246,11 +246,11 @@
       "account": "Ionos",
       "initials": "AD",
       "id": "adnan",
-      "meetings": 5,
+      "meetings": 6,
       "kpi": 5,
-      "bonus": 380,
+      "bonus": 440,
       "approved": true,
-      "kpiProgressPct": 100
+      "kpiProgressPct": 120
     },
     {
       "name": "Lea Buzhala",
@@ -297,6 +297,17 @@
       "kpiProgressPct": 0
     },
     {
+      "name": "Rrezart Shkodra",
+      "account": "Flowx.ai",
+      "initials": "RS",
+      "id": "rrezart",
+      "meetings": 4,
+      "kpi": 7,
+      "bonus": 270,
+      "approved": true,
+      "kpiProgressPct": 57
+    },
+    {
       "name": "Gerard Daberdaku",
       "account": "Network box USA",
       "initials": "GD",
@@ -306,17 +317,6 @@
       "bonus": 190,
       "approved": true,
       "kpiProgressPct": 60
-    },
-    {
-      "name": "Liza Krivaça",
-      "account": "Flowx.ai",
-      "initials": "LK",
-      "id": "liza",
-      "meetings": 5,
-      "kpi": 7,
-      "bonus": 130,
-      "approved": true,
-      "kpiProgressPct": 71
     },
     {
       "name": "Rea Bitri",
@@ -352,10 +352,10 @@
       "kpiProgressPct": 40
     },
     {
-      "name": "Rrezart Shkodra",
+      "name": "Liza Krivaça",
       "account": "Flowx.ai",
-      "initials": "RS",
-      "id": "rrezart",
+      "initials": "LK",
+      "id": "liza",
       "meetings": 4,
       "kpi": 7,
       "bonus": 80,
@@ -482,17 +482,6 @@
       "bonus": 20,
       "approved": false,
       "kpiProgressPct": 33
-    },
-    {
-      "name": "Josh Akamihe",
-      "account": "Flowx.ai",
-      "initials": "JA",
-      "id": "josh",
-      "meetings": 1,
-      "kpi": 7,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 14
     },
     {
       "name": "Medina Gashi",
@@ -716,9 +705,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 48,
-    "aggregatedRows": 46,
+    "totalRecords": 47,
+    "aggregatedRows": 45,
     "approvedCount": 24,
-    "uniqueSdrs": 43
+    "uniqueSdrs": 42
   }
 }
