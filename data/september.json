@@ -1,7 +1,7 @@
 {
   "month": "September",
   "monthFile": "september",
-  "generatedAt": "2026-09-30T17:02:15.051Z",
+  "generatedAt": "2026-09-30T18:04:51.275Z",
   "topEarner": {
     "name": "Josh G.",
     "account": "Flowx.ai",
@@ -18,7 +18,7 @@
     "overBy": 2,
     "summary": "KPI smashed. 2 meetings over target."
   },
-  "paidOutTotal": 7120,
+  "paidOutTotal": 7860,
   "paidOut": [
     {
       "name": "Josh G.",
@@ -29,6 +29,11 @@
       "name": "Jovana Stojanovic",
       "initials": "JS",
       "bonus": 780
+    },
+    {
+      "name": "Gerard Daberdaku",
+      "initials": "GD",
+      "bonus": 740
     },
     {
       "name": "Metodi Atanasov",
@@ -166,6 +171,26 @@
       "bonus": 20
     },
     {
+      "name": "Damjan Dedic",
+      "initials": "DD",
+      "bonus": 0
+    },
+    {
+      "name": "Donat Halimi",
+      "initials": "DH",
+      "bonus": 0
+    },
+    {
+      "name": "Mateo Gropasi",
+      "initials": "MG",
+      "bonus": 0
+    },
+    {
+      "name": "Valdrin Kastrati",
+      "initials": "VK",
+      "bonus": 0
+    },
+    {
       "name": "Elena Ristovska",
       "initials": "ER",
       "bonus": 0
@@ -186,6 +211,14 @@
       "id": "jovana",
       "meetings": 10,
       "kpi": 10,
+      "pct": 100
+    },
+    {
+      "name": "Gerard Daberdaku",
+      "initials": "GD",
+      "id": "gerard",
+      "meetings": 8,
+      "kpi": 8,
       "pct": 100
     },
     {
@@ -227,14 +260,6 @@
       "meetings": 6,
       "kpi": 5,
       "pct": 100
-    },
-    {
-      "name": "Altin Krasniqi",
-      "initials": "AK",
-      "id": "altin",
-      "meetings": 2,
-      "kpi": 5,
-      "pct": 40
     }
   ],
   "allEarners": [
@@ -257,6 +282,17 @@
       "meetings": 10,
       "kpi": 10,
       "bonus": 780,
+      "approved": true,
+      "kpiProgressPct": 100
+    },
+    {
+      "name": "Gerard Daberdaku",
+      "account": "Network box USA",
+      "initials": "GD",
+      "id": "gerard",
+      "meetings": 8,
+      "kpi": 8,
+      "bonus": 740,
       "approved": true,
       "kpiProgressPct": 100
     },
@@ -369,17 +405,6 @@
       "bonus": 270,
       "approved": true,
       "kpiProgressPct": 57
-    },
-    {
-      "name": "Gerard Daberdaku",
-      "account": "Network box USA",
-      "initials": "GD",
-      "id": "gerard",
-      "meetings": 7,
-      "kpi": 8,
-      "bonus": 260,
-      "approved": false,
-      "kpiProgressPct": 88
     },
     {
       "name": "Elida Avdimetaj",
@@ -697,7 +722,7 @@
       "meetings": 0,
       "kpi": 5,
       "bonus": 0,
-      "approved": false,
+      "approved": true,
       "kpiProgressPct": 0
     },
     {
@@ -708,7 +733,7 @@
       "meetings": 0,
       "kpi": 5,
       "bonus": 0,
-      "approved": false,
+      "approved": true,
       "kpiProgressPct": 0
     },
     {
@@ -719,7 +744,7 @@
       "meetings": 0,
       "kpi": 3,
       "bonus": 0,
-      "approved": false,
+      "approved": true,
       "kpiProgressPct": 0
     },
     {
@@ -730,7 +755,7 @@
       "meetings": 0,
       "kpi": 8,
       "bonus": 0,
-      "approved": false,
+      "approved": true,
       "kpiProgressPct": 0
     },
     {
@@ -748,7 +773,7 @@
   "stats": {
     "totalRecords": 48,
     "aggregatedRows": 46,
-    "approvedCount": 30,
+    "approvedCount": 35,
     "uniqueSdrs": 43
   }
 }
