@@ -1,7 +1,7 @@
 {
   "month": "September",
   "monthFile": "september",
-  "generatedAt": "2026-09-30T19:07:03.860Z",
+  "generatedAt": "2026-09-30T20:05:28.113Z",
   "topEarner": {
     "name": "Josh G.",
     "account": "Flowx.ai",
@@ -18,7 +18,7 @@
     "overBy": 2,
     "summary": "KPI smashed. 2 meetings over target."
   },
-  "paidOutTotal": 7880,
+  "paidOutTotal": 7930,
   "paidOut": [
     {
       "name": "Josh G.",
@@ -96,14 +96,14 @@
       "bonus": 210
     },
     {
-      "name": "Erblin Ramusa",
-      "initials": "ER",
+      "name": "George Bugarovic",
+      "initials": "GB",
       "bonus": 130
     },
     {
-      "name": "George Bugarovic",
-      "initials": "GB",
-      "bonus": 80
+      "name": "Erblin Ramusa",
+      "initials": "ER",
+      "bonus": 130
     },
     {
       "name": "Vladan Koprivnica",
@@ -429,6 +429,17 @@
       "kpiProgressPct": 40
     },
     {
+      "name": "George Bugarovic",
+      "account": "Eyesover",
+      "initials": "GB",
+      "id": "george",
+      "meetings": 5,
+      "kpi": 8,
+      "bonus": 130,
+      "approved": true,
+      "kpiProgressPct": 63
+    },
+    {
       "name": "Erblin Ramusa",
       "account": "Flowx.ai",
       "initials": "ER",
@@ -438,17 +449,6 @@
       "bonus": 130,
       "approved": true,
       "kpiProgressPct": 33
-    },
-    {
-      "name": "George Bugarovic",
-      "account": "Eyesover",
-      "initials": "GB",
-      "id": "george",
-      "meetings": 4,
-      "kpi": 8,
-      "bonus": 80,
-      "approved": true,
-      "kpiProgressPct": 50
     },
     {
       "name": "Vladan Koprivnica",
