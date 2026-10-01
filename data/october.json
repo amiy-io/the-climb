@@ -1,16 +1,166 @@
 {
   "month": "October",
   "monthFile": "october",
-  "generatedAt": "2026-10-01T08:01:50.788Z",
-  "topEarner": null,
+  "generatedAt": "2026-10-01T09:02:02.110Z",
+  "topEarner": {
+    "name": "Vuk Radovic",
+    "account": "Secure Tactics",
+    "initials": "VR",
+    "id": "vuk",
+    "meetings": 0,
+    "kpi": 3,
+    "tier": 0,
+    "bonus": 0,
+    "baseBonus": 0,
+    "extraBonus": 0,
+    "specialBonus": 0,
+    "kpiProgressPct": 0,
+    "overBy": -3,
+    "summary": "3 meetings to go to hit KPI."
+  },
   "paidOutTotal": 0,
   "paidOut": [],
-  "seasonTrack": [],
-  "allEarners": [],
+  "seasonTrack": [
+    {
+      "name": "Vuk Radovic",
+      "initials": "VR",
+      "id": "vuk",
+      "meetings": 0,
+      "kpi": 3,
+      "pct": 0
+    },
+    {
+      "name": "Klelia Loka",
+      "initials": "KL",
+      "id": "klelia",
+      "meetings": 0,
+      "kpi": 5,
+      "pct": 0
+    },
+    {
+      "name": "Drijon Shala",
+      "initials": "DS",
+      "id": "drijon",
+      "meetings": 0,
+      "kpi": 3,
+      "pct": 0
+    },
+    {
+      "name": "Donat Halimi",
+      "initials": "DH",
+      "id": "donat",
+      "meetings": 0,
+      "kpi": 3,
+      "pct": 0
+    },
+    {
+      "name": "Olja Kozomora",
+      "initials": "OK",
+      "id": "olja",
+      "meetings": 0,
+      "kpi": 3,
+      "pct": 0
+    },
+    {
+      "name": "Medina Gashi",
+      "initials": "MG",
+      "id": "medina",
+      "meetings": 0,
+      "kpi": 5,
+      "pct": 0
+    },
+    {
+      "name": "Elida Avdimetaj",
+      "initials": "EA",
+      "id": "elida",
+      "meetings": 0,
+      "kpi": 5,
+      "pct": 0
+    }
+  ],
+  "allEarners": [
+    {
+      "name": "Vuk Radovic",
+      "account": "Secure Tactics",
+      "initials": "VR",
+      "id": "vuk",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Klelia Loka",
+      "account": "Be-Incremental",
+      "initials": "KL",
+      "id": "klelia",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Drijon Shala",
+      "account": "Draftt.io",
+      "initials": "DS",
+      "id": "drijon",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Donat Halimi",
+      "account": "Bites",
+      "initials": "DH",
+      "id": "donat",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Olja Kozomora",
+      "account": "Bites",
+      "initials": "OK",
+      "id": "olja",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Medina Gashi",
+      "account": "Draftt.io",
+      "initials": "MG",
+      "id": "medina",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Elida Avdimetaj",
+      "account": "Draftt.io",
+      "initials": "EA",
+      "id": "elida",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    }
+  ],
   "stats": {
-    "totalRecords": 0,
-    "aggregatedRows": 0,
+    "totalRecords": 7,
+    "aggregatedRows": 7,
     "approvedCount": 0,
-    "uniqueSdrs": 0
+    "uniqueSdrs": 7
   }
 }
