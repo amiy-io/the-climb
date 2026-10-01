@@ -1,0 +1,16 @@
+{
+  "month": "October",
+  "monthFile": "october",
+  "generatedAt": "2026-10-01T00:01:32.403Z",
+  "topEarner": null,
+  "paidOutTotal": 0,
+  "paidOut": [],
+  "seasonTrack": [],
+  "allEarners": [],
+  "stats": {
+    "totalRecords": 0,
+    "aggregatedRows": 0,
+    "approvedCount": 0,
+    "uniqueSdrs": 0
+  }
+}
