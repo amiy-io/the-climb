@@ -1,12 +1,12 @@
 {
   "month": "October",
   "monthFile": "october",
-  "generatedAt": "2026-10-01T19:04:54.015Z",
+  "generatedAt": "2026-10-01T20:02:16.466Z",
   "topEarner": {
-    "name": "Vuk Radovic",
-    "account": "Secure Tactics",
-    "initials": "VR",
-    "id": "vuk",
+    "name": "Afrora Haziri",
+    "account": "Hear.ai",
+    "initials": "AH",
+    "id": "afrora",
     "meetings": 0,
     "kpi": 3,
     "tier": 0,
@@ -21,6 +21,22 @@
   "paidOutTotal": 0,
   "paidOut": [],
   "seasonTrack": [
+    {
+      "name": "Afrora Haziri",
+      "initials": "AH",
+      "id": "afrora",
+      "meetings": 0,
+      "kpi": 3,
+      "pct": 0
+    },
+    {
+      "name": "Driton Halili",
+      "initials": "DH",
+      "id": "driton",
+      "meetings": 0,
+      "kpi": 5,
+      "pct": 0
+    },
     {
       "name": "Vuk Radovic",
       "initials": "VR",
@@ -68,17 +84,31 @@
       "meetings": 0,
       "kpi": 5,
       "pct": 0
-    },
-    {
-      "name": "Elida Avdimetaj",
-      "initials": "EA",
-      "id": "elida",
-      "meetings": 0,
-      "kpi": 5,
-      "pct": 0
     }
   ],
   "allEarners": [
+    {
+      "name": "Afrora Haziri",
+      "account": "Hear.ai",
+      "initials": "AH",
+      "id": "afrora",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Driton Halili",
+      "account": "Global Surveyz",
+      "initials": "DH",
+      "id": "driton",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
     {
       "name": "Vuk Radovic",
       "account": "Secure Tactics",
@@ -158,9 +188,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 7,
-    "aggregatedRows": 7,
+    "totalRecords": 9,
+    "aggregatedRows": 9,
     "approvedCount": 0,
-    "uniqueSdrs": 7
+    "uniqueSdrs": 9
   }
 }
