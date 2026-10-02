@@ -1,26 +1,50 @@
 {
   "month": "October",
   "monthFile": "october",
-  "generatedAt": "2026-10-02T13:02:18.276Z",
+  "generatedAt": "2026-10-02T14:01:50.302Z",
   "topEarner": {
-    "name": "Veljko Nikolic",
-    "account": "Cosmo Tech",
-    "initials": "VN",
-    "id": "veljko",
+    "name": "Metodi Atanasov",
+    "account": "Ledge.co",
+    "initials": "MA",
+    "id": "metodi",
     "meetings": 0,
-    "kpi": 4,
+    "kpi": 5,
     "tier": 0,
-    "bonus": 0,
+    "bonus": 100,
     "baseBonus": 0,
     "extraBonus": 0,
-    "specialBonus": 0,
+    "specialBonus": 100,
     "kpiProgressPct": 0,
-    "overBy": -4,
-    "summary": "4 meetings to go to hit KPI."
+    "overBy": -5,
+    "summary": "5 meetings to go to hit KPI."
   },
   "paidOutTotal": 0,
   "paidOut": [],
   "seasonTrack": [
+    {
+      "name": "Metodi Atanasov",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 0,
+      "kpi": 5,
+      "pct": 0
+    },
+    {
+      "name": "Metodi Atanasov",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 0,
+      "kpi": 3,
+      "pct": 0
+    },
+    {
+      "name": "Lea Buzhala",
+      "initials": "LB",
+      "id": "lea",
+      "meetings": 0,
+      "kpi": 5,
+      "pct": 0
+    },
     {
       "name": "Veljko Nikolic",
       "initials": "VN",
@@ -60,33 +84,42 @@
       "meetings": 0,
       "kpi": 5,
       "pct": 0
-    },
-    {
-      "name": "Vuk Radovic",
-      "initials": "VR",
-      "id": "vuk",
-      "meetings": 0,
-      "kpi": 3,
-      "pct": 0
-    },
-    {
-      "name": "Klelia Loka",
-      "initials": "KL",
-      "id": "klelia",
-      "meetings": 0,
-      "kpi": 5,
-      "pct": 0
-    },
-    {
-      "name": "Drijon Shala",
-      "initials": "DS",
-      "id": "drijon",
-      "meetings": 0,
-      "kpi": 3,
-      "pct": 0
     }
   ],
   "allEarners": [
+    {
+      "name": "Metodi Atanasov",
+      "account": "Ledge.co",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 100,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Ledge",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Lea Buzhala",
+      "account": "Ledge.co",
+      "initials": "LB",
+      "id": "lea",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
     {
       "name": "Veljko Nikolic",
       "account": "Cosmo Tech",
@@ -221,9 +254,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 12,
-    "aggregatedRows": 12,
+    "totalRecords": 15,
+    "aggregatedRows": 15,
     "approvedCount": 0,
-    "uniqueSdrs": 12
+    "uniqueSdrs": 13
   }
 }
