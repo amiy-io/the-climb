@@ -1,26 +1,50 @@
 {
   "month": "October",
   "monthFile": "october",
-  "generatedAt": "2026-10-02T11:03:06.937Z",
+  "generatedAt": "2026-10-02T12:04:38.929Z",
   "topEarner": {
-    "name": "Afrora Haziri",
-    "account": "Hear.ai",
-    "initials": "AH",
-    "id": "afrora",
+    "name": "Veljko Nikolic",
+    "account": "Cosmo Tech",
+    "initials": "VN",
+    "id": "veljko",
     "meetings": 0,
-    "kpi": 3,
+    "kpi": 4,
     "tier": 0,
     "bonus": 0,
     "baseBonus": 0,
     "extraBonus": 0,
     "specialBonus": 0,
     "kpiProgressPct": 0,
-    "overBy": -3,
-    "summary": "3 meetings to go to hit KPI."
+    "overBy": -4,
+    "summary": "4 meetings to go to hit KPI."
   },
   "paidOutTotal": 0,
   "paidOut": [],
   "seasonTrack": [
+    {
+      "name": "Veljko Nikolic",
+      "initials": "VN",
+      "id": "veljko",
+      "meetings": 0,
+      "kpi": 4,
+      "pct": 0
+    },
+    {
+      "name": "Metodi Atanasov",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 0,
+      "kpi": 5,
+      "pct": 0
+    },
+    {
+      "name": "Adnan Davutov",
+      "initials": "AD",
+      "id": "adnan",
+      "meetings": 0,
+      "kpi": 5,
+      "pct": 0
+    },
     {
       "name": "Afrora Haziri",
       "initials": "AH",
@@ -60,33 +84,42 @@
       "meetings": 0,
       "kpi": 3,
       "pct": 0
-    },
-    {
-      "name": "Donat Halimi",
-      "initials": "DH",
-      "id": "donat",
-      "meetings": 0,
-      "kpi": 3,
-      "pct": 0
-    },
-    {
-      "name": "Olja Kozomora",
-      "initials": "OK",
-      "id": "olja",
-      "meetings": 0,
-      "kpi": 3,
-      "pct": 0
-    },
-    {
-      "name": "Medina Gashi",
-      "initials": "MG",
-      "id": "medina",
-      "meetings": 0,
-      "kpi": 5,
-      "pct": 0
     }
   ],
   "allEarners": [
+    {
+      "name": "Veljko Nikolic",
+      "account": "Cosmo Tech",
+      "initials": "VN",
+      "id": "veljko",
+      "meetings": 0,
+      "kpi": 4,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Cosmo Tech",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Adnan Davutov",
+      "account": "Ionos",
+      "initials": "AD",
+      "id": "adnan",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
     {
       "name": "Afrora Haziri",
       "account": "Hear.ai",
@@ -188,9 +221,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 9,
-    "aggregatedRows": 9,
+    "totalRecords": 12,
+    "aggregatedRows": 12,
     "approvedCount": 0,
-    "uniqueSdrs": 9
+    "uniqueSdrs": 12
   }
 }
