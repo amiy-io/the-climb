@@ -1,7 +1,7 @@
 {
   "month": "October",
   "monthFile": "october",
-  "generatedAt": "2026-10-05T18:07:47.778Z",
+  "generatedAt": "2026-10-05T19:04:29.809Z",
   "topEarner": {
     "name": "Josh Akamihe",
     "account": "Flowx.ai",
@@ -54,6 +54,14 @@
       "pct": 40
     },
     {
+      "name": "Altin Krasniqi",
+      "initials": "AK",
+      "id": "altin",
+      "meetings": 1,
+      "kpi": 5,
+      "pct": 20
+    },
+    {
       "name": "Gezim Rringaj",
       "initials": "GR",
       "id": "gezim",
@@ -73,14 +81,6 @@
       "name": "Rrezart Shkodra",
       "initials": "RS",
       "id": "rrezart",
-      "meetings": 0,
-      "kpi": 5,
-      "pct": 0
-    },
-    {
-      "name": "Erblin Ramusa",
-      "initials": "ER",
-      "id": "erblin",
       "meetings": 0,
       "kpi": 5,
       "pct": 0
@@ -130,6 +130,17 @@
       "bonus": 40,
       "approved": false,
       "kpiProgressPct": 40
+    },
+    {
+      "name": "Altin Krasniqi",
+      "account": "Swimm",
+      "initials": "AK",
+      "id": "altin",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
     },
     {
       "name": "Gezim Rringaj",
@@ -353,9 +364,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 24,
-    "aggregatedRows": 24,
+    "totalRecords": 25,
+    "aggregatedRows": 25,
     "approvedCount": 0,
-    "uniqueSdrs": 22
+    "uniqueSdrs": 23
   }
 }
