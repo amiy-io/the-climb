@@ -1,7 +1,7 @@
 {
   "month": "October",
   "monthFile": "october",
-  "generatedAt": "2026-10-05T17:10:55.568Z",
+  "generatedAt": "2026-10-05T18:07:47.778Z",
   "topEarner": {
     "name": "Josh Akamihe",
     "account": "Flowx.ai",
@@ -62,6 +62,14 @@
       "pct": 20
     },
     {
+      "name": "Medina Gashi",
+      "initials": "MG",
+      "id": "medina",
+      "meetings": 1,
+      "kpi": 5,
+      "pct": 20
+    },
+    {
       "name": "Rrezart Shkodra",
       "initials": "RS",
       "id": "rrezart",
@@ -73,14 +81,6 @@
       "name": "Erblin Ramusa",
       "initials": "ER",
       "id": "erblin",
-      "meetings": 0,
-      "kpi": 5,
-      "pct": 0
-    },
-    {
-      "name": "Metodi Atanasov",
-      "initials": "MA",
-      "id": "metodi",
       "meetings": 0,
       "kpi": 5,
       "pct": 0
@@ -136,6 +136,17 @@
       "account": "Swimm",
       "initials": "GR",
       "id": "gezim",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
+    },
+    {
+      "name": "Medina Gashi",
+      "account": "Draftt.io",
+      "initials": "MG",
+      "id": "medina",
       "meetings": 1,
       "kpi": 5,
       "bonus": 20,
@@ -325,17 +336,6 @@
       "id": "olja",
       "meetings": 0,
       "kpi": 3,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Medina Gashi",
-      "account": "Draftt.io",
-      "initials": "MG",
-      "id": "medina",
-      "meetings": 0,
-      "kpi": 5,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
