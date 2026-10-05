@@ -1,12 +1,12 @@
 {
   "month": "October",
   "monthFile": "october",
-  "generatedAt": "2026-10-05T07:04:58.892Z",
+  "generatedAt": "2026-10-05T08:01:59.101Z",
   "topEarner": {
-    "name": "Metodi Atanasov",
-    "account": "Ledge.co",
-    "initials": "MA",
-    "id": "metodi",
+    "name": "Josh Akamihe",
+    "account": "Flowx.ai",
+    "initials": "JA",
+    "id": "josh",
     "meetings": 0,
     "kpi": 5,
     "tier": 0,
@@ -22,9 +22,9 @@
   "paidOut": [],
   "seasonTrack": [
     {
-      "name": "Metodi Atanasov",
-      "initials": "MA",
-      "id": "metodi",
+      "name": "Josh Akamihe",
+      "initials": "JA",
+      "id": "josh",
       "meetings": 0,
       "kpi": 5,
       "pct": 0
@@ -34,7 +34,7 @@
       "initials": "MA",
       "id": "metodi",
       "meetings": 0,
-      "kpi": 3,
+      "kpi": 5,
       "pct": 0
     },
     {
@@ -46,11 +46,27 @@
       "pct": 0
     },
     {
-      "name": "Veljko Nikolic",
-      "initials": "VN",
-      "id": "veljko",
+      "name": "Liza Krivaça",
+      "initials": "LK",
+      "id": "liza",
+      "meetings": 2,
+      "kpi": 5,
+      "pct": 40
+    },
+    {
+      "name": "Rrezart Shkodra",
+      "initials": "RS",
+      "id": "rrezart",
       "meetings": 0,
-      "kpi": 4,
+      "kpi": 5,
+      "pct": 0
+    },
+    {
+      "name": "Erblin Ramusa",
+      "initials": "ER",
+      "id": "erblin",
+      "meetings": 0,
+      "kpi": 5,
       "pct": 0
     },
     {
@@ -62,31 +78,26 @@
       "pct": 0
     },
     {
-      "name": "Adnan Davutov",
-      "initials": "AD",
-      "id": "adnan",
-      "meetings": 0,
-      "kpi": 5,
-      "pct": 0
-    },
-    {
-      "name": "Afrora Haziri",
-      "initials": "AH",
-      "id": "afrora",
-      "meetings": 0,
-      "kpi": 3,
-      "pct": 0
-    },
-    {
-      "name": "Driton Halili",
-      "initials": "DH",
-      "id": "driton",
+      "name": "Rona Kingji",
+      "initials": "RK",
+      "id": "rona",
       "meetings": 0,
       "kpi": 5,
       "pct": 0
     }
   ],
   "allEarners": [
+    {
+      "name": "Josh Akamihe",
+      "account": "Flowx.ai",
+      "initials": "JA",
+      "id": "josh",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 100,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
     {
       "name": "Metodi Atanasov",
       "account": "Ledge.co",
@@ -99,21 +110,98 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Metodi Atanasov",
-      "account": "Ledge",
-      "initials": "MA",
-      "id": "metodi",
+      "name": "Lea Buzhala",
+      "account": "Ledge.co",
+      "initials": "LB",
+      "id": "lea",
       "meetings": 0,
-      "kpi": 3,
+      "kpi": 5,
+      "bonus": 50,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Liza Krivaça",
+      "account": "Flowx.ai",
+      "initials": "LK",
+      "id": "liza",
+      "meetings": 2,
+      "kpi": 5,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 40
+    },
+    {
+      "name": "Rrezart Shkodra",
+      "account": "Flowx.ai",
+      "initials": "RS",
+      "id": "rrezart",
+      "meetings": 0,
+      "kpi": 5,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
     },
     {
-      "name": "Lea Buzhala",
-      "account": "Ledge.co",
-      "initials": "LB",
-      "id": "lea",
+      "name": "Erblin Ramusa",
+      "account": "Flowx.ai",
+      "initials": "ER",
+      "id": "erblin",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Flowx.ai",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Rona Kingji",
+      "account": "Flowx.ai",
+      "initials": "RK",
+      "id": "rona",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Rea Bitri",
+      "account": "Flowx.ai",
+      "initials": "RB",
+      "id": "rea",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Jovana Stojanovic",
+      "account": "Sequesto",
+      "initials": "JS",
+      "id": "jovana",
+      "meetings": 0,
+      "kpi": 10,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Masa Micovic",
+      "account": "Sequesto",
+      "initials": "MM",
+      "id": "masa",
       "meetings": 0,
       "kpi": 5,
       "bonus": 0,
@@ -254,9 +342,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 15,
-    "aggregatedRows": 15,
+    "totalRecords": 23,
+    "aggregatedRows": 23,
     "approvedCount": 0,
-    "uniqueSdrs": 13
+    "uniqueSdrs": 21
   }
 }
