@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 52,
-  "generatedAt": "2026-10-07T16:05:05.235Z",
+  "generatedAt": "2026-10-07T17:04:57.173Z",
   "topEarner": {
     "name": "Josh Akamihe",
     "account": "Flowx.ai",
@@ -175,6 +175,28 @@
       "bonus": 20,
       "approved": false,
       "kpiProgressPct": 20
+    },
+    {
+      "name": "Rona Kingji",
+      "account": "Bites",
+      "initials": "RK",
+      "id": "rona",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Erblin Ramusa",
+      "account": "Be-Incremental",
+      "initials": "ER",
+      "id": "erblin",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
     },
     {
       "name": "Valdrin Kastrati",
@@ -419,17 +441,6 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Klelia Loka",
-      "account": "Be-Incremental",
-      "initials": "KL",
-      "id": "klelia",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": "Drijon Shala",
       "account": "Draftt.io",
       "initials": "DS",
@@ -452,17 +463,6 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Olja Kozomora",
-      "account": "Bites",
-      "initials": "OK",
-      "id": "olja",
-      "meetings": 0,
-      "kpi": 3,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": "Elida Avdimetaj",
       "account": "Draftt.io",
       "initials": "EA",
@@ -478,6 +478,6 @@
     "totalRecords": 35,
     "aggregatedRows": 35,
     "approvedCount": 0,
-    "uniqueSdrs": 32
+    "uniqueSdrs": 30
   }
 }
