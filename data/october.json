@@ -1,27 +1,35 @@
 {
   "month": "October",
   "monthFile": "october",
-  "rosterSize": 50,
-  "generatedAt": "2026-10-12T08:04:36.197Z",
+  "rosterSize": 49,
+  "generatedAt": "2026-10-12T09:04:44.719Z",
   "topEarner": {
-    "name": "Josh Akamihe",
-    "account": "Flowx.ai",
-    "initials": "JA",
-    "id": "josh",
-    "meetings": 0,
-    "kpi": 5,
-    "tier": 0,
-    "bonus": 100,
-    "baseBonus": 0,
+    "name": "Jovana Stojanovic",
+    "account": "Sequesto",
+    "initials": "JS",
+    "id": "jovana",
+    "meetings": 5,
+    "kpi": 10,
+    "tier": 5,
+    "bonus": 130,
+    "baseBonus": 130,
     "extraBonus": 0,
-    "specialBonus": 100,
-    "kpiProgressPct": 0,
+    "specialBonus": 0,
+    "kpiProgressPct": 50,
     "overBy": -5,
     "summary": "5 meetings to go to hit KPI."
   },
   "paidOutTotal": 0,
   "paidOut": [],
   "seasonTrack": [
+    {
+      "name": "Jovana Stojanovic",
+      "initials": "JS",
+      "id": "jovana",
+      "meetings": 5,
+      "kpi": 10,
+      "pct": 50
+    },
     {
       "name": "Josh Akamihe",
       "initials": "JA",
@@ -77,17 +85,20 @@
       "meetings": 1,
       "kpi": 5,
       "pct": 20
-    },
-    {
-      "name": "Altin Krasniqi",
-      "initials": "AK",
-      "id": "altin",
-      "meetings": 1,
-      "kpi": 5,
-      "pct": 20
     }
   ],
   "allEarners": [
+    {
+      "name": "Jovana Stojanovic",
+      "account": "Sequesto",
+      "initials": "JS",
+      "id": "jovana",
+      "meetings": 5,
+      "kpi": 10,
+      "bonus": 130,
+      "approved": false,
+      "kpiProgressPct": 50
+    },
     {
       "name": "Josh Akamihe",
       "account": "Flowx.ai",
@@ -370,17 +381,6 @@
       "id": "rea",
       "meetings": 0,
       "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Jovana Stojanovic",
-      "account": "Sequesto",
-      "initials": "JS",
-      "id": "jovana",
-      "meetings": 0,
-      "kpi": 10,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
