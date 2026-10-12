@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 49,
-  "generatedAt": "2026-10-12T12:02:29.908Z",
+  "generatedAt": "2026-10-12T13:06:12.172Z",
   "topEarner": {
     "name": "Jovana Stojanovic",
     "account": "Sequesto",
@@ -208,6 +208,17 @@
       "bonus": 20,
       "approved": false,
       "kpiProgressPct": 20
+    },
+    {
+      "name": "Drijon Shala",
+      "account": "Draftt.io",
+      "initials": "DS",
+      "id": "drijon",
+      "meetings": 1,
+      "kpi": 3,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 33
     },
     {
       "name": "Medina Gashi",
@@ -456,17 +467,6 @@
       "account": "Secure Tactics",
       "initials": "VR",
       "id": "vuk",
-      "meetings": 0,
-      "kpi": 3,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Drijon Shala",
-      "account": "Draftt.io",
-      "initials": "DS",
-      "id": "drijon",
       "meetings": 0,
       "kpi": 3,
       "bonus": 0,
