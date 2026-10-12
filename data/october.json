@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 49,
-  "generatedAt": "2026-10-12T11:04:35.423Z",
+  "generatedAt": "2026-10-12T12:02:29.908Z",
   "topEarner": {
     "name": "Jovana Stojanovic",
     "account": "Sequesto",
@@ -199,6 +199,17 @@
       "kpiProgressPct": 20
     },
     {
+      "name": "Masa Micovic",
+      "account": "Sequesto",
+      "initials": "MM",
+      "id": "masa",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
+    },
+    {
       "name": "Medina Gashi",
       "account": "Draftt.io",
       "initials": "MG",
@@ -379,17 +390,6 @@
       "account": "Flowx.ai",
       "initials": "RB",
       "id": "rea",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Masa Micovic",
-      "account": "Sequesto",
-      "initials": "MM",
-      "id": "masa",
       "meetings": 0,
       "kpi": 5,
       "bonus": 0,
