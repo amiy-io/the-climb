@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 50,
-  "generatedAt": "2026-10-12T07:02:01.488Z",
+  "generatedAt": "2026-10-12T08:04:36.197Z",
   "topEarner": {
     "name": "Josh Akamihe",
     "account": "Flowx.ai",
@@ -63,25 +63,25 @@
       "pct": 40
     },
     {
+      "name": "Natasa Dimovska",
+      "initials": "ND",
+      "id": "natasa",
+      "meetings": 1,
+      "kpi": 5,
+      "pct": 20
+    },
+    {
+      "name": "Gentian Elezi",
+      "initials": "GE",
+      "id": "gentian",
+      "meetings": 1,
+      "kpi": 5,
+      "pct": 20
+    },
+    {
       "name": "Altin Krasniqi",
       "initials": "AK",
       "id": "altin",
-      "meetings": 1,
-      "kpi": 5,
-      "pct": 20
-    },
-    {
-      "name": "Gezim Rringaj",
-      "initials": "GR",
-      "id": "gezim",
-      "meetings": 1,
-      "kpi": 5,
-      "pct": 20
-    },
-    {
-      "name": "Medina Gashi",
-      "initials": "MG",
-      "id": "medina",
       "meetings": 1,
       "kpi": 5,
       "pct": 20
@@ -142,6 +142,28 @@
       "bonus": 40,
       "approved": false,
       "kpiProgressPct": 40
+    },
+    {
+      "name": "Natasa Dimovska",
+      "account": "Swimm",
+      "initials": "ND",
+      "id": "natasa",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
+    },
+    {
+      "name": "Gentian Elezi",
+      "account": "Swimm",
+      "initials": "GE",
+      "id": "gentian",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
     },
     {
       "name": "Altin Krasniqi",
@@ -475,9 +497,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 35,
-    "aggregatedRows": 35,
+    "totalRecords": 37,
+    "aggregatedRows": 37,
     "approvedCount": 0,
-    "uniqueSdrs": 30
+    "uniqueSdrs": 32
   }
 }
