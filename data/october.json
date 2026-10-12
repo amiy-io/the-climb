@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 49,
-  "generatedAt": "2026-10-12T15:07:24.438Z",
+  "generatedAt": "2026-10-12T16:04:11.191Z",
   "topEarner": {
     "name": "Jovana Stojanovic",
     "account": "Sequesto",
@@ -226,10 +226,21 @@
       "initials": "DS",
       "id": "drijon",
       "meetings": 1,
-      "kpi": 3,
+      "kpi": 2,
       "bonus": 20,
       "approved": false,
-      "kpiProgressPct": 33
+      "kpiProgressPct": 50
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Global Surveyz",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 0,
+      "kpi": 4,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
     },
     {
       "name": "Rona Kingji",
@@ -497,8 +508,8 @@
     }
   ],
   "stats": {
-    "totalRecords": 37,
-    "aggregatedRows": 37,
+    "totalRecords": 38,
+    "aggregatedRows": 38,
     "approvedCount": 0,
     "uniqueSdrs": 32
   }
