@@ -1,8 +1,8 @@
 {
   "month": "October",
   "monthFile": "october",
-  "rosterSize": 49,
-  "generatedAt": "2026-10-13T15:01:53.232Z",
+  "rosterSize": 48,
+  "generatedAt": "2026-10-13T16:02:09.977Z",
   "topEarner": {
     "name": "Jovana Stojanovic",
     "account": "Sequesto",
@@ -474,17 +474,6 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Vuk Radovic",
-      "account": "Secure Tactics",
-      "initials": "VR",
-      "id": "vuk",
-      "meetings": 0,
-      "kpi": 3,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": "Donat Halimi",
       "account": "Bites",
       "initials": "DH",
@@ -508,9 +497,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 38,
-    "aggregatedRows": 38,
+    "totalRecords": 37,
+    "aggregatedRows": 37,
     "approvedCount": 0,
-    "uniqueSdrs": 32
+    "uniqueSdrs": 31
   }
 }
