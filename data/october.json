@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 48,
-  "generatedAt": "2026-10-14T12:02:00.299Z",
+  "generatedAt": "2026-10-14T13:08:30.780Z",
   "topEarner": {
     "name": "Jovana Stojanovic",
     "account": "Sequesto",
@@ -47,6 +47,14 @@
       "pct": 0
     },
     {
+      "name": "Gentian Elezi",
+      "initials": "GE",
+      "id": "gentian",
+      "meetings": 3,
+      "kpi": 5,
+      "pct": 60
+    },
+    {
       "name": "Aleksandro Klincarski",
       "initials": "AK",
       "id": "aleksandro",
@@ -77,14 +85,6 @@
       "meetings": 2,
       "kpi": 5,
       "pct": 40
-    },
-    {
-      "name": "Natasa Dimovska",
-      "initials": "ND",
-      "id": "natasa",
-      "meetings": 1,
-      "kpi": 5,
-      "pct": 20
     }
   ],
   "allEarners": [
@@ -120,6 +120,17 @@
       "bonus": 100,
       "approved": false,
       "kpiProgressPct": 0
+    },
+    {
+      "name": "Gentian Elezi",
+      "account": "Swimm",
+      "initials": "GE",
+      "id": "gentian",
+      "meetings": 3,
+      "kpi": 5,
+      "bonus": 60,
+      "approved": false,
+      "kpiProgressPct": 60
     },
     {
       "name": "Aleksandro Klincarski",
@@ -177,17 +188,6 @@
       "kpiProgressPct": 20
     },
     {
-      "name": "Gentian Elezi",
-      "account": "Swimm",
-      "initials": "GE",
-      "id": "gentian",
-      "meetings": 1,
-      "kpi": 5,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 20
-    },
-    {
       "name": "Altin Krasniqi",
       "account": "Swimm",
       "initials": "AK",
@@ -203,6 +203,17 @@
       "account": "Swimm",
       "initials": "GR",
       "id": "gezim",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Flowx.ai",
+      "initials": "MA",
+      "id": "metodi",
       "meetings": 1,
       "kpi": 5,
       "bonus": 20,
@@ -379,17 +390,6 @@
       "account": "Flowx.ai",
       "initials": "ER",
       "id": "erblin",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Metodi Atanasov",
-      "account": "Flowx.ai",
-      "initials": "MA",
-      "id": "metodi",
       "meetings": 0,
       "kpi": 5,
       "bonus": 0,
