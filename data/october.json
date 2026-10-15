@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 41,
-  "generatedAt": "2026-10-15T14:09:28.877Z",
+  "generatedAt": "2026-10-15T15:06:51.353Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Cosmo Tech",
@@ -221,6 +221,17 @@
       "kpiProgressPct": 40
     },
     {
+      "name": "Drijon Shala",
+      "account": "Draftt.io",
+      "initials": "DS",
+      "id": "drijon",
+      "meetings": 1,
+      "kpi": 2,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 50
+    },
+    {
       "name": "Natasa Dimovska",
       "account": "Swimm",
       "initials": "ND",
@@ -254,15 +265,48 @@
       "kpiProgressPct": 20
     },
     {
-      "name": "Drijon Shala",
-      "account": "Draftt.io",
-      "initials": "DS",
-      "id": "drijon",
-      "meetings": 1,
-      "kpi": 2,
+      "name": "Rona Kingji",
+      "account": "Bites",
+      "initials": "RK",
+      "id": "rona",
+      "meetings": 0,
+      "kpi": 3,
       "bonus": 20,
       "approved": false,
-      "kpiProgressPct": 50
+      "kpiProgressPct": 0
+    },
+    {
+      "name": " Paul Shatilov",
+      "account": "Markival",
+      "initials": "PS",
+      "id": "paul",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Afrora Haziri",
+      "account": "Hear.ai",
+      "initials": "AH",
+      "id": "afrora",
+      "meetings": 0,
+      "kpi": 3,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Elida Avdimetaj",
+      "account": "Draftt.io",
+      "initials": "EA",
+      "id": "elida",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 0
     },
     {
       "name": "Metodi Atanasov",
@@ -271,17 +315,6 @@
       "id": "metodi",
       "meetings": 0,
       "kpi": 4,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Rona Kingji",
-      "account": "Bites",
-      "initials": "RK",
-      "id": "rona",
-      "meetings": 0,
-      "kpi": 3,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
@@ -304,17 +337,6 @@
       "id": "valdrin",
       "meetings": 0,
       "kpi": 8,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": " Paul Shatilov",
-      "account": "Markival",
-      "initials": "PS",
-      "id": "paul",
-      "meetings": 0,
-      "kpi": 5,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
@@ -430,34 +452,12 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Afrora Haziri",
-      "account": "Hear.ai",
-      "initials": "AH",
-      "id": "afrora",
-      "meetings": 0,
-      "kpi": 3,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": "Donat Halimi",
       "account": "Bites",
       "initials": "DH",
       "id": "donat",
       "meetings": 0,
       "kpi": 3,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Elida Avdimetaj",
-      "account": "Draftt.io",
-      "initials": "EA",
-      "id": "elida",
-      "meetings": 0,
-      "kpi": 5,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
