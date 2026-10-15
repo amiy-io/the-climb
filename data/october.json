@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 41,
-  "generatedAt": "2026-10-15T15:06:51.353Z",
+  "generatedAt": "2026-10-15T16:03:03.937Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Cosmo Tech",
@@ -243,6 +243,17 @@
       "kpiProgressPct": 20
     },
     {
+      "name": "Gerard Daberdaku",
+      "account": "Network box USA",
+      "initials": "GD",
+      "id": "gerard",
+      "meetings": 1,
+      "kpi": 8,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 13
+    },
+    {
       "name": "Altin Krasniqi",
       "account": "Swimm",
       "initials": "AK",
@@ -357,17 +368,6 @@
       "account": "Eyesover",
       "initials": "GB",
       "id": "george",
-      "meetings": 0,
-      "kpi": 8,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Gerard Daberdaku",
-      "account": "Network box USA",
-      "initials": "GD",
-      "id": "gerard",
       "meetings": 0,
       "kpi": 8,
       "bonus": 0,
