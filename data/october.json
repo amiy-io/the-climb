@@ -1,27 +1,35 @@
 {
   "month": "October",
   "monthFile": "october",
-  "rosterSize": 47,
-  "generatedAt": "2026-10-15T12:03:26.259Z",
+  "rosterSize": 41,
+  "generatedAt": "2026-10-15T14:09:28.877Z",
   "topEarner": {
-    "name": "Jovana Stojanovic",
-    "account": "Sequesto",
-    "initials": "JS",
-    "id": "jovana",
+    "name": "Metodi Atanasov",
+    "account": "Cosmo Tech",
+    "initials": "MA",
+    "id": "metodi",
     "meetings": 5,
-    "kpi": 10,
+    "kpi": 4,
     "tier": 5,
-    "bonus": 130,
+    "bonus": 380,
     "baseBonus": 130,
-    "extraBonus": 0,
+    "extraBonus": 250,
     "specialBonus": 0,
-    "kpiProgressPct": 50,
-    "overBy": -5,
-    "summary": "5 meetings to go to hit KPI."
+    "kpiProgressPct": 125,
+    "overBy": 1,
+    "summary": "KPI smashed. 1 meeting over target."
   },
   "paidOutTotal": 0,
   "paidOut": [],
   "seasonTrack": [
+    {
+      "name": "Metodi Atanasov",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 5,
+      "kpi": 4,
+      "pct": 100
+    },
     {
       "name": "Jovana Stojanovic",
       "initials": "JS",
@@ -35,7 +43,7 @@
       "initials": "JA",
       "id": "josh",
       "meetings": 0,
-      "kpi": 5,
+      "kpi": 0,
       "pct": 0
     },
     {
@@ -45,6 +53,22 @@
       "meetings": 0,
       "kpi": 5,
       "pct": 0
+    },
+    {
+      "name": "Rrezart Shkodra",
+      "initials": "RS",
+      "id": "rrezart",
+      "meetings": 4,
+      "kpi": 5,
+      "pct": 80
+    },
+    {
+      "name": "Metodi Atanasov",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 4,
+      "kpi": 5,
+      "pct": 80
     },
     {
       "name": "Gentian Elezi",
@@ -61,33 +85,20 @@
       "meetings": 3,
       "kpi": 8,
       "pct": 38
-    },
-    {
-      "name": "Lea Buzhala",
-      "initials": "LB",
-      "id": "lea",
-      "meetings": 0,
-      "kpi": 5,
-      "pct": 0
-    },
-    {
-      "name": "Liza Krivaça",
-      "initials": "LK",
-      "id": "liza",
-      "meetings": 2,
-      "kpi": 5,
-      "pct": 40
-    },
-    {
-      "name": "Medina Gashi",
-      "initials": "MG",
-      "id": "medina",
-      "meetings": 2,
-      "kpi": 5,
-      "pct": 40
     }
   ],
   "allEarners": [
+    {
+      "name": "Metodi Atanasov",
+      "account": "Cosmo Tech",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 5,
+      "kpi": 4,
+      "bonus": 380,
+      "approved": false,
+      "kpiProgressPct": 125
+    },
     {
       "name": "Jovana Stojanovic",
       "account": "Sequesto",
@@ -105,7 +116,7 @@
       "initials": "JA",
       "id": "josh",
       "meetings": 0,
-      "kpi": 5,
+      "kpi": 0,
       "bonus": 100,
       "approved": false,
       "kpiProgressPct": 0
@@ -120,6 +131,28 @@
       "bonus": 100,
       "approved": false,
       "kpiProgressPct": 0
+    },
+    {
+      "name": "Rrezart Shkodra",
+      "account": "Flowx.ai",
+      "initials": "RS",
+      "id": "rrezart",
+      "meetings": 4,
+      "kpi": 5,
+      "bonus": 80,
+      "approved": false,
+      "kpiProgressPct": 80
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Flowx.ai",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 4,
+      "kpi": 5,
+      "bonus": 80,
+      "approved": false,
+      "kpiProgressPct": 80
     },
     {
       "name": "Gentian Elezi",
@@ -166,6 +199,17 @@
       "kpiProgressPct": 40
     },
     {
+      "name": "Masa Micovic",
+      "account": "Sequesto",
+      "initials": "MM",
+      "id": "masa",
+      "meetings": 2,
+      "kpi": 5,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 40
+    },
+    {
       "name": "Medina Gashi",
       "account": "Draftt.io",
       "initials": "MG",
@@ -203,28 +247,6 @@
       "account": "Swimm",
       "initials": "GR",
       "id": "gezim",
-      "meetings": 1,
-      "kpi": 5,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 20
-    },
-    {
-      "name": "Metodi Atanasov",
-      "account": "Flowx.ai",
-      "initials": "MA",
-      "id": "metodi",
-      "meetings": 1,
-      "kpi": 5,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 20
-    },
-    {
-      "name": "Masa Micovic",
-      "account": "Sequesto",
-      "initials": "MM",
-      "id": "masa",
       "meetings": 1,
       "kpi": 5,
       "bonus": 20,
@@ -375,39 +397,6 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Rrezart Shkodra",
-      "account": "Flowx.ai",
-      "initials": "RS",
-      "id": "rrezart",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Erblin Ramusa",
-      "account": "Flowx.ai",
-      "initials": "ER",
-      "id": "erblin",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Rona Kingji",
-      "account": "Flowx.ai",
-      "initials": "RK",
-      "id": "rona",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": "Rea Bitri",
       "account": "Flowx.ai",
       "initials": "RB",
@@ -423,17 +412,6 @@
       "account": "Cosmo Tech",
       "initials": "VN",
       "id": "veljko",
-      "meetings": 0,
-      "kpi": 4,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Metodi Atanasov",
-      "account": "Cosmo Tech",
-      "initials": "MA",
-      "id": "metodi",
       "meetings": 0,
       "kpi": 4,
       "bonus": 0,
@@ -463,17 +441,6 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Driton Halili",
-      "account": "Global Surveyz",
-      "initials": "DH",
-      "id": "driton",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": "Donat Halimi",
       "account": "Bites",
       "initials": "DH",
@@ -497,9 +464,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 37,
-    "aggregatedRows": 37,
+    "totalRecords": 35,
+    "aggregatedRows": 34,
     "approvedCount": 0,
-    "uniqueSdrs": 31
+    "uniqueSdrs": 30
   }
 }
