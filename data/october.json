@@ -1,8 +1,8 @@
 {
   "month": "October",
   "monthFile": "october",
-  "rosterSize": 41,
-  "generatedAt": "2026-10-16T13:04:41.045Z",
+  "rosterSize": 44,
+  "generatedAt": "2026-10-16T14:02:53.490Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Cosmo Tech",
@@ -331,6 +331,17 @@
       "kpiProgressPct": 0
     },
     {
+      "name": "Rea Bitri",
+      "account": "Swimm",
+      "initials": "RB",
+      "id": "rea",
+      "meetings": 0,
+      "kpi": 1,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
       "name": "Metodi Atanasov",
       "account": "Global Surveyz",
       "initials": "MA",
@@ -425,17 +436,6 @@
       "id": "agon",
       "meetings": 0,
       "kpi": 4,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Rea Bitri",
-      "account": "Flowx.ai",
-      "initials": "RB",
-      "id": "rea",
-      "meetings": 0,
-      "kpi": 5,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
