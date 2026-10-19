@@ -2,26 +2,34 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-19T14:02:39.159Z",
+  "generatedAt": "2026-10-19T15:03:58.453Z",
   "topEarner": {
-    "name": "Metodi Atanasov",
-    "account": "Cosmo Tech",
-    "initials": "MA",
-    "id": "metodi",
+    "name": "Elena Ristovska",
+    "account": "Hear.ai",
+    "initials": "ER",
+    "id": "elena",
     "meetings": 5,
-    "kpi": 4,
+    "kpi": 5,
     "tier": 5,
     "bonus": 380,
     "baseBonus": 130,
     "extraBonus": 250,
     "specialBonus": 0,
-    "kpiProgressPct": 125,
-    "overBy": 1,
-    "summary": "KPI smashed. 1 meeting over target."
+    "kpiProgressPct": 100,
+    "overBy": 0,
+    "summary": "KPI reached. Right on target."
   },
   "paidOutTotal": 0,
   "paidOut": [],
   "seasonTrack": [
+    {
+      "name": "Elena Ristovska",
+      "initials": "ER",
+      "id": "elena",
+      "meetings": 5,
+      "kpi": 5,
+      "pct": 100
+    },
     {
       "name": "Metodi Atanasov",
       "initials": "MA",
@@ -77,17 +85,20 @@
       "meetings": 3,
       "kpi": 5,
       "pct": 60
-    },
-    {
-      "name": "Aleksandro Klincarski",
-      "initials": "AK",
-      "id": "aleksandro",
-      "meetings": 3,
-      "kpi": 8,
-      "pct": 38
     }
   ],
   "allEarners": [
+    {
+      "name": "Elena Ristovska",
+      "account": "Hear.ai",
+      "initials": "ER",
+      "id": "elena",
+      "meetings": 5,
+      "kpi": 5,
+      "bonus": 380,
+      "approved": false,
+      "kpiProgressPct": 100
+    },
     {
       "name": "Metodi Atanasov",
       "account": "Cosmo Tech",
@@ -177,6 +188,17 @@
       "kpiProgressPct": 38
     },
     {
+      "name": "Elida Avdimetaj",
+      "account": "Draftt.io",
+      "initials": "EA",
+      "id": "elida",
+      "meetings": 2,
+      "kpi": 5,
+      "bonus": 60,
+      "approved": false,
+      "kpiProgressPct": 40
+    },
+    {
       "name": "Lea Buzhala",
       "account": "Ledge.co",
       "initials": "LB",
@@ -186,6 +208,17 @@
       "bonus": 50,
       "approved": false,
       "kpiProgressPct": 0
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Global Surveyz",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 2,
+      "kpi": 4,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 50
     },
     {
       "name": "Liza Krivaça",
@@ -219,6 +252,17 @@
       "bonus": 40,
       "approved": false,
       "kpiProgressPct": 40
+    },
+    {
+      "name": "Afrora Haziri",
+      "account": "Hear.ai",
+      "initials": "AH",
+      "id": "afrora",
+      "meetings": 1,
+      "kpi": 3,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 33
     },
     {
       "name": "Drijon Shala",
@@ -309,45 +353,12 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Afrora Haziri",
-      "account": "Hear.ai",
-      "initials": "AH",
-      "id": "afrora",
-      "meetings": 0,
-      "kpi": 3,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Elida Avdimetaj",
-      "account": "Draftt.io",
-      "initials": "EA",
-      "id": "elida",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": "Rea Bitri",
       "account": "Swimm",
       "initials": "RB",
       "id": "rea",
       "meetings": 0,
       "kpi": 1,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Metodi Atanasov",
-      "account": "Global Surveyz",
-      "initials": "MA",
-      "id": "metodi",
-      "meetings": 0,
-      "kpi": 4,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
@@ -476,8 +487,8 @@
   ],
   "stats": {
     "totalRecords": 36,
-    "aggregatedRows": 35,
+    "aggregatedRows": 36,
     "approvedCount": 0,
-    "uniqueSdrs": 31
+    "uniqueSdrs": 32
   }
 }
