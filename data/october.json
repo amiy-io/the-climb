@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-19T15:03:58.453Z",
+  "generatedAt": "2026-10-19T16:04:51.008Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -320,10 +320,32 @@
       "kpiProgressPct": 20
     },
     {
+      "name": "Donat Halimi",
+      "account": "Bites",
+      "initials": "DH",
+      "id": "donat",
+      "meetings": 1,
+      "kpi": 3,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 33
+    },
+    {
       "name": "Treasure Akudo Terry",
       "account": "Swimm",
       "initials": "TA",
       "id": "treasure",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": " Paul Shatilov",
+      "account": "Markival",
+      "initials": "PS",
+      "id": "paul",
       "meetings": 0,
       "kpi": 5,
       "bonus": 20,
@@ -337,18 +359,7 @@
       "id": "rona",
       "meetings": 0,
       "kpi": 3,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": " Paul Shatilov",
-      "account": "Markival",
-      "initials": "PS",
-      "id": "paul",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 20,
+      "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
     },
@@ -472,21 +483,10 @@
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
-    },
-    {
-      "name": "Donat Halimi",
-      "account": "Bites",
-      "initials": "DH",
-      "id": "donat",
-      "meetings": 0,
-      "kpi": 3,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
     }
   ],
   "stats": {
-    "totalRecords": 36,
+    "totalRecords": 37,
     "aggregatedRows": 36,
     "approvedCount": 0,
     "uniqueSdrs": 32
