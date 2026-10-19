@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-19T19:04:07.893Z",
+  "generatedAt": "2026-10-19T20:05:13.542Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -276,6 +276,17 @@
       "kpiProgressPct": 50
     },
     {
+      "name": "Gezim Rringaj",
+      "account": "Swimm",
+      "initials": "GR",
+      "id": "gezim",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
+    },
+    {
       "name": "Natasa Dimovska",
       "account": "Swimm",
       "initials": "ND",
@@ -302,17 +313,6 @@
       "account": "Swimm",
       "initials": "AK",
       "id": "altin",
-      "meetings": 1,
-      "kpi": 5,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 20
-    },
-    {
-      "name": "Gezim Rringaj",
-      "account": "Swimm",
-      "initials": "GR",
-      "id": "gezim",
       "meetings": 1,
       "kpi": 5,
       "bonus": 20,
@@ -349,6 +349,61 @@
       "meetings": 0,
       "kpi": 5,
       "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Adi Hasaković",
+      "account": "Swimm",
+      "initials": "AH",
+      "id": "adi",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Aleksandro Klincarski",
+      "account": "Swimm",
+      "initials": "AK",
+      "id": "aleksandro",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Fat Goska",
+      "account": "Swimm",
+      "initials": "FG",
+      "id": "fat",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Art Qorrolli",
+      "account": "Swimm",
+      "initials": "AQ",
+      "id": "art",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Elda Hida",
+      "account": "Swimm",
+      "initials": "EH",
+      "id": "elda",
+      "meetings": 0,
+      "kpi": 5,
+      "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
     },
@@ -486,9 +541,9 @@
     }
   ],
   "stats": {
-    "totalRecords": 37,
-    "aggregatedRows": 36,
+    "totalRecords": 43,
+    "aggregatedRows": 41,
     "approvedCount": 0,
-    "uniqueSdrs": 32
+    "uniqueSdrs": 36
   }
 }
