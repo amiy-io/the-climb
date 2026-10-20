@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-20T17:03:44.548Z",
+  "generatedAt": "2026-10-20T18:02:29.886Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -221,6 +221,17 @@
       "kpiProgressPct": 0
     },
     {
+      "name": "Altin Krasniqi",
+      "account": "Swimm",
+      "initials": "AK",
+      "id": "altin",
+      "meetings": 2,
+      "kpi": 5,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 40
+    },
+    {
       "name": "Liza Krivaça",
       "account": "Flowx.ai",
       "initials": "LK",
@@ -318,17 +329,6 @@
       "bonus": 20,
       "approved": false,
       "kpiProgressPct": 13
-    },
-    {
-      "name": "Altin Krasniqi",
-      "account": "Swimm",
-      "initials": "AK",
-      "id": "altin",
-      "meetings": 1,
-      "kpi": 5,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 20
     },
     {
       "name": "Donat Halimi",
