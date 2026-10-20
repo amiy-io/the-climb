@@ -2,22 +2,22 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-20T08:22:37.036Z",
+  "generatedAt": "2026-10-20T09:02:34.019Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
     "initials": "ER",
     "id": "elena",
-    "meetings": 8,
+    "meetings": 9,
     "kpi": 5,
     "tier": 5,
-    "bonus": 644,
-    "baseBonus": 340,
+    "bonus": 734,
+    "baseBonus": 430,
     "extraBonus": 250,
     "specialBonus": 54,
-    "kpiProgressPct": 160,
-    "overBy": 3,
-    "summary": "KPI smashed. 3 meetings over target."
+    "kpiProgressPct": 180,
+    "overBy": 4,
+    "summary": "KPI smashed. 4 meetings over target."
   },
   "paidOutTotal": 0,
   "paidOut": [],
@@ -26,7 +26,7 @@
       "name": "Elena Ristovska",
       "initials": "ER",
       "id": "elena",
-      "meetings": 8,
+      "meetings": 9,
       "kpi": 5,
       "pct": 100
     },
@@ -93,11 +93,11 @@
       "account": "Hear.ai",
       "initials": "ER",
       "id": "elena",
-      "meetings": 8,
+      "meetings": 9,
       "kpi": 5,
-      "bonus": 644,
+      "bonus": 734,
       "approved": false,
-      "kpiProgressPct": 160
+      "kpiProgressPct": 180
     },
     {
       "name": "Metodi Atanasov",
