@@ -2,22 +2,22 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-20T12:01:54.264Z",
+  "generatedAt": "2026-10-20T13:04:41.227Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
     "initials": "ER",
     "id": "elena",
-    "meetings": 13,
+    "meetings": 14,
     "kpi": 5,
     "tier": 5,
-    "bonus": 1134,
-    "baseBonus": 830,
+    "bonus": 1234,
+    "baseBonus": 930,
     "extraBonus": 250,
     "specialBonus": 54,
-    "kpiProgressPct": 260,
-    "overBy": 8,
-    "summary": "KPI smashed. 8 meetings over target."
+    "kpiProgressPct": 280,
+    "overBy": 9,
+    "summary": "KPI smashed. 9 meetings over target."
   },
   "paidOutTotal": 0,
   "paidOut": [],
@@ -26,7 +26,15 @@
       "name": "Elena Ristovska",
       "initials": "ER",
       "id": "elena",
-      "meetings": 13,
+      "meetings": 14,
+      "kpi": 5,
+      "pct": 100
+    },
+    {
+      "name": "Metodi Atanasov",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 5,
       "kpi": 5,
       "pct": 100
     },
@@ -74,14 +82,6 @@
       "name": "Metodi Atanasov",
       "initials": "MA",
       "id": "metodi",
-      "meetings": 4,
-      "kpi": 5,
-      "pct": 80
-    },
-    {
-      "name": "Metodi Atanasov",
-      "initials": "MA",
-      "id": "metodi",
       "meetings": 3,
       "kpi": 4,
       "pct": 75
@@ -93,11 +93,22 @@
       "account": "Hear.ai",
       "initials": "ER",
       "id": "elena",
-      "meetings": 13,
+      "meetings": 14,
       "kpi": 5,
-      "bonus": 1134,
+      "bonus": 1234,
       "approved": false,
-      "kpiProgressPct": 260
+      "kpiProgressPct": 280
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Flowx.ai",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 5,
+      "kpi": 5,
+      "bonus": 380,
+      "approved": false,
+      "kpiProgressPct": 100
     },
     {
       "name": "Metodi Atanasov",
@@ -148,17 +159,6 @@
       "account": "Flowx.ai",
       "initials": "RS",
       "id": "rrezart",
-      "meetings": 4,
-      "kpi": 5,
-      "bonus": 80,
-      "approved": false,
-      "kpiProgressPct": 80
-    },
-    {
-      "name": "Metodi Atanasov",
-      "account": "Flowx.ai",
-      "initials": "MA",
-      "id": "metodi",
       "meetings": 4,
       "kpi": 5,
       "bonus": 80,
@@ -274,6 +274,17 @@
       "bonus": 40,
       "approved": false,
       "kpiProgressPct": 50
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Ledge",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 1,
+      "kpi": 3,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 33
     },
     {
       "name": "Gezim Rringaj",
@@ -541,8 +552,8 @@
     }
   ],
   "stats": {
-    "totalRecords": 43,
-    "aggregatedRows": 41,
+    "totalRecords": 44,
+    "aggregatedRows": 42,
     "approvedCount": 0,
     "uniqueSdrs": 36
   }
