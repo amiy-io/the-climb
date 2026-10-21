@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-21T11:04:01.826Z",
+  "generatedAt": "2026-10-21T12:05:35.732Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -552,7 +552,7 @@
     }
   ],
   "stats": {
-    "totalRecords": 44,
+    "totalRecords": 45,
     "aggregatedRows": 42,
     "approvedCount": 0,
     "uniqueSdrs": 36
