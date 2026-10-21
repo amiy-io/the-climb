@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-21T08:02:52.475Z",
+  "generatedAt": "2026-10-21T09:04:56.143Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -34,7 +34,7 @@
       "name": "Metodi Atanasov",
       "initials": "MA",
       "id": "metodi",
-      "meetings": 6,
+      "meetings": 5,
       "kpi": 5,
       "pct": 100
     },
@@ -104,11 +104,11 @@
       "account": "Flowx.ai",
       "initials": "MA",
       "id": "metodi",
-      "meetings": 6,
+      "meetings": 5,
       "kpi": 5,
-      "bonus": 440,
+      "bonus": 380,
       "approved": false,
-      "kpiProgressPct": 120
+      "kpiProgressPct": 100
     },
     {
       "name": "Metodi Atanasov",
