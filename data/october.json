@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-21T18:46:07.829Z",
+  "generatedAt": "2026-10-21T18:46:48.579Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -79,12 +79,12 @@
       "pct": 80
     },
     {
-      "name": "Metodi Atanasov",
-      "initials": "MA",
-      "id": "metodi",
+      "name": "Gentian Elezi",
+      "initials": "GE",
+      "id": "gentian",
       "meetings": 3,
-      "kpi": 4,
-      "pct": 75
+      "kpi": 5,
+      "pct": 60
     }
   ],
   "allEarners": [
@@ -164,17 +164,6 @@
       "bonus": 80,
       "approved": false,
       "kpiProgressPct": 80
-    },
-    {
-      "name": "Metodi Atanasov",
-      "account": "Global Surveyz",
-      "initials": "MA",
-      "id": "metodi",
-      "meetings": 3,
-      "kpi": 4,
-      "bonus": 60,
-      "approved": false,
-      "kpiProgressPct": 75
     },
     {
       "name": "Gentian Elezi",
@@ -362,6 +351,17 @@
       "bonus": 20,
       "approved": false,
       "kpiProgressPct": 33
+    },
+    {
+      "name": "Metodi Atanasov",
+      "account": "Global Surveyz",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 1,
+      "kpi": 4,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 25
     },
     {
       "name": "Natasa Dimovska",
