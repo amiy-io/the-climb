@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-21T09:04:56.143Z",
+  "generatedAt": "2026-10-21T10:03:45.531Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -309,6 +309,17 @@
       "kpiProgressPct": 20
     },
     {
+      "name": "Rona Kingji",
+      "account": "Bites",
+      "initials": "RK",
+      "id": "rona",
+      "meetings": 1,
+      "kpi": 3,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 33
+    },
+    {
       "name": "Natasa Dimovska",
       "account": "Swimm",
       "initials": "ND",
@@ -414,17 +425,6 @@
       "id": "elda",
       "meetings": 0,
       "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Rona Kingji",
-      "account": "Bites",
-      "initials": "RK",
-      "id": "rona",
-      "meetings": 0,
-      "kpi": 3,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
