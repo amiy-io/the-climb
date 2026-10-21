@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-21T18:46:48.579Z",
+  "generatedAt": "2026-10-21T18:47:08.734Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -276,17 +276,6 @@
       "kpiProgressPct": 40
     },
     {
-      "name": "Afrora Haziri",
-      "account": "Hear.ai",
-      "initials": "AH",
-      "id": "afrora",
-      "meetings": 1,
-      "kpi": 3,
-      "bonus": 40,
-      "approved": false,
-      "kpiProgressPct": 33
-    },
-    {
       "name": "Drijon Shala",
       "account": "Draftt.io",
       "initials": "DS",
@@ -447,6 +436,17 @@
       "id": "paul",
       "meetings": 0,
       "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 0
+    },
+    {
+      "name": "Afrora Haziri",
+      "account": "Hear.ai",
+      "initials": "AH",
+      "id": "afrora",
+      "meetings": 0,
+      "kpi": 3,
       "bonus": 20,
       "approved": false,
       "kpiProgressPct": 0
