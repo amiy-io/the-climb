@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-21T13:50:13.099Z",
+  "generatedAt": "2026-10-21T14:04:13.467Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -199,6 +199,17 @@
       "kpiProgressPct": 38
     },
     {
+      "name": "Masa Micovic",
+      "account": "Sequesto",
+      "initials": "MM",
+      "id": "masa",
+      "meetings": 3,
+      "kpi": 5,
+      "bonus": 60,
+      "approved": false,
+      "kpiProgressPct": 60
+    },
+    {
       "name": "Elida Avdimetaj",
       "account": "Draftt.io",
       "initials": "EA",
@@ -236,17 +247,6 @@
       "account": "Flowx.ai",
       "initials": "LK",
       "id": "liza",
-      "meetings": 2,
-      "kpi": 5,
-      "bonus": 40,
-      "approved": false,
-      "kpiProgressPct": 40
-    },
-    {
-      "name": "Masa Micovic",
-      "account": "Sequesto",
-      "initials": "MM",
-      "id": "masa",
       "meetings": 2,
       "kpi": 5,
       "bonus": 40,
