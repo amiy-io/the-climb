@@ -2,22 +2,22 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-21T13:05:00.662Z",
+  "generatedAt": "2026-10-21T13:50:13.099Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
     "initials": "ER",
     "id": "elena",
-    "meetings": 14,
+    "meetings": 7,
     "kpi": 5,
     "tier": 5,
-    "bonus": 1234,
-    "baseBonus": 930,
+    "bonus": 564,
+    "baseBonus": 260,
     "extraBonus": 250,
     "specialBonus": 54,
-    "kpiProgressPct": 280,
-    "overBy": 9,
-    "summary": "KPI smashed. 9 meetings over target."
+    "kpiProgressPct": 140,
+    "overBy": 2,
+    "summary": "KPI smashed. 2 meetings over target."
   },
   "paidOutTotal": 0,
   "paidOut": [],
@@ -26,7 +26,7 @@
       "name": "Elena Ristovska",
       "initials": "ER",
       "id": "elena",
-      "meetings": 14,
+      "meetings": 7,
       "kpi": 5,
       "pct": 100
     },
@@ -34,7 +34,7 @@
       "name": "Metodi Atanasov",
       "initials": "MA",
       "id": "metodi",
-      "meetings": 6,
+      "meetings": 5,
       "kpi": 5,
       "pct": 100
     },
@@ -93,22 +93,22 @@
       "account": "Hear.ai",
       "initials": "ER",
       "id": "elena",
-      "meetings": 14,
+      "meetings": 7,
       "kpi": 5,
-      "bonus": 1234,
+      "bonus": 564,
       "approved": false,
-      "kpiProgressPct": 280
+      "kpiProgressPct": 140
     },
     {
       "name": "Metodi Atanasov",
       "account": "Flowx.ai",
       "initials": "MA",
       "id": "metodi",
-      "meetings": 6,
+      "meetings": 5,
       "kpi": 5,
-      "bonus": 440,
+      "bonus": 380,
       "approved": false,
-      "kpiProgressPct": 120
+      "kpiProgressPct": 100
     },
     {
       "name": "Metodi Atanasov",
