@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-21T15:04:01.837Z",
+  "generatedAt": "2026-10-21T16:01:49.391Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -47,6 +47,14 @@
       "pct": 100
     },
     {
+      "name": "Aleksandro Klincarski",
+      "initials": "AK",
+      "id": "aleksandro",
+      "meetings": 5,
+      "kpi": 8,
+      "pct": 63
+    },
+    {
       "name": "Jovana Stojanovic",
       "initials": "JS",
       "id": "jovana",
@@ -61,14 +69,6 @@
       "meetings": 0,
       "kpi": 0,
       "pct": 0
-    },
-    {
-      "name": "Aleksandro Klincarski",
-      "initials": "AK",
-      "id": "aleksandro",
-      "meetings": 4,
-      "kpi": 8,
-      "pct": 50
     },
     {
       "name": "Rrezart Shkodra",
@@ -122,6 +122,17 @@
       "kpiProgressPct": 125
     },
     {
+      "name": "Aleksandro Klincarski",
+      "account": "Guardz",
+      "initials": "AK",
+      "id": "aleksandro",
+      "meetings": 5,
+      "kpi": 8,
+      "bonus": 130,
+      "approved": false,
+      "kpiProgressPct": 63
+    },
+    {
       "name": "Jovana Stojanovic",
       "account": "Sequesto",
       "initials": "JS",
@@ -142,17 +153,6 @@
       "bonus": 100,
       "approved": false,
       "kpiProgressPct": 0
-    },
-    {
-      "name": "Aleksandro Klincarski",
-      "account": "Guardz",
-      "initials": "AK",
-      "id": "aleksandro",
-      "meetings": 4,
-      "kpi": 8,
-      "bonus": 80,
-      "approved": false,
-      "kpiProgressPct": 50
     },
     {
       "name": "Rrezart Shkodra",
@@ -199,6 +199,17 @@
       "kpiProgressPct": 75
     },
     {
+      "name": "Agon Jakupi",
+      "account": "Guardz",
+      "initials": "AJ",
+      "id": "agon",
+      "meetings": 3,
+      "kpi": 4,
+      "bonus": 60,
+      "approved": false,
+      "kpiProgressPct": 75
+    },
+    {
       "name": "Masa Micovic",
       "account": "Sequesto",
       "initials": "MM",
@@ -232,15 +243,15 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Agon Jakupi",
+      "name": "Vladan Koprivnica",
       "account": "Guardz",
-      "initials": "AJ",
-      "id": "agon",
+      "initials": "VK",
+      "id": "vladan",
       "meetings": 2,
-      "kpi": 4,
+      "kpi": 8,
       "bonus": 40,
       "approved": false,
-      "kpiProgressPct": 50
+      "kpiProgressPct": 25
     },
     {
       "name": "Altin Krasniqi",
@@ -296,6 +307,17 @@
       "bonus": 40,
       "approved": false,
       "kpiProgressPct": 50
+    },
+    {
+      "name": "Valdrin Kastrati",
+      "account": "ubx cloud",
+      "initials": "VK",
+      "id": "valdrin",
+      "meetings": 1,
+      "kpi": 6,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 17
     },
     {
       "name": "Adnan Davutov",
@@ -507,17 +529,6 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Valdrin Kastrati",
-      "account": "ubx cloud",
-      "initials": "VK",
-      "id": "valdrin",
-      "meetings": 0,
-      "kpi": 8,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": "George Bugarovic",
       "account": "Markival",
       "initials": "GB",
@@ -538,21 +549,10 @@
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
-    },
-    {
-      "name": "Vladan Koprivnica",
-      "account": "Guardz",
-      "initials": "VK",
-      "id": "vladan",
-      "meetings": 0,
-      "kpi": 8,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
     }
   ],
   "stats": {
-    "totalRecords": 45,
+    "totalRecords": 46,
     "aggregatedRows": 42,
     "approvedCount": 0,
     "uniqueSdrs": 36
