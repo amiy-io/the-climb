@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-21T14:04:13.467Z",
+  "generatedAt": "2026-10-21T15:04:01.837Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -63,12 +63,12 @@
       "pct": 0
     },
     {
-      "name": "Metodi Atanasov",
-      "initials": "MA",
-      "id": "metodi",
-      "meetings": 0,
-      "kpi": 5,
-      "pct": 0
+      "name": "Aleksandro Klincarski",
+      "initials": "AK",
+      "id": "aleksandro",
+      "meetings": 4,
+      "kpi": 8,
+      "pct": 50
     },
     {
       "name": "Rrezart Shkodra",
@@ -144,15 +144,15 @@
       "kpiProgressPct": 0
     },
     {
-      "name": "Metodi Atanasov",
-      "account": "Ledge.co",
-      "initials": "MA",
-      "id": "metodi",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 100,
+      "name": "Aleksandro Klincarski",
+      "account": "Guardz",
+      "initials": "AK",
+      "id": "aleksandro",
+      "meetings": 4,
+      "kpi": 8,
+      "bonus": 80,
       "approved": false,
-      "kpiProgressPct": 0
+      "kpiProgressPct": 50
     },
     {
       "name": "Rrezart Shkodra",
@@ -188,15 +188,15 @@
       "kpiProgressPct": 60
     },
     {
-      "name": "Aleksandro Klincarski",
+      "name": "Mac Torralba",
       "account": "Guardz",
-      "initials": "AK",
-      "id": "aleksandro",
+      "initials": "MT",
+      "id": "mac",
       "meetings": 3,
-      "kpi": 8,
+      "kpi": 4,
       "bonus": 60,
       "approved": false,
-      "kpiProgressPct": 38
+      "kpiProgressPct": 75
     },
     {
       "name": "Masa Micovic",
@@ -230,6 +230,17 @@
       "bonus": 50,
       "approved": false,
       "kpiProgressPct": 0
+    },
+    {
+      "name": "Agon Jakupi",
+      "account": "Guardz",
+      "initials": "AJ",
+      "id": "agon",
+      "meetings": 2,
+      "kpi": 4,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 50
     },
     {
       "name": "Altin Krasniqi",
@@ -287,6 +298,17 @@
       "kpiProgressPct": 50
     },
     {
+      "name": "Adnan Davutov",
+      "account": "Cybeats",
+      "initials": "AD",
+      "id": "adnan",
+      "meetings": 1,
+      "kpi": 2,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 50
+    },
+    {
       "name": "Metodi Atanasov",
       "account": "Ledge",
       "initials": "MA",
@@ -340,6 +362,39 @@
       "bonus": 20,
       "approved": false,
       "kpiProgressPct": 13
+    },
+    {
+      "name": "Flamur Osmani",
+      "account": "Guardz",
+      "initials": "FO",
+      "id": "flamur",
+      "meetings": 1,
+      "kpi": 8,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 13
+    },
+    {
+      "name": "Veljko Nikolic",
+      "account": "Cosmo Tech",
+      "initials": "VN",
+      "id": "veljko",
+      "meetings": 1,
+      "kpi": 4,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 25
+    },
+    {
+      "name": "Adnan Davutov",
+      "account": "Ionos",
+      "initials": "AD",
+      "id": "adnan",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
     },
     {
       "name": "Donat Halimi",
@@ -491,61 +546,6 @@
       "id": "vladan",
       "meetings": 0,
       "kpi": 8,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Flamur Osmani",
-      "account": "Guardz",
-      "initials": "FO",
-      "id": "flamur",
-      "meetings": 0,
-      "kpi": 8,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Mac Torralba",
-      "account": "Guardz",
-      "initials": "MT",
-      "id": "mac",
-      "meetings": 0,
-      "kpi": 4,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Agon Jakupi",
-      "account": "Guardz",
-      "initials": "AJ",
-      "id": "agon",
-      "meetings": 0,
-      "kpi": 4,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Veljko Nikolic",
-      "account": "Cosmo Tech",
-      "initials": "VN",
-      "id": "veljko",
-      "meetings": 0,
-      "kpi": 4,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Adnan Davutov",
-      "account": "Ionos",
-      "initials": "AD",
-      "id": "adnan",
-      "meetings": 0,
-      "kpi": 5,
       "bonus": 0,
       "approved": false,
       "kpiProgressPct": 0
