@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-22T09:02:14.681Z",
+  "generatedAt": "2026-10-22T10:04:59.748Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -232,6 +232,17 @@
       "kpiProgressPct": 0
     },
     {
+      "name": "Rona Kingji",
+      "account": "Bites",
+      "initials": "RK",
+      "id": "rona",
+      "meetings": 2,
+      "kpi": 3,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 67
+    },
+    {
       "name": "Vladan Koprivnica",
       "account": "Guardz",
       "initials": "VK",
@@ -329,17 +340,6 @@
       "bonus": 20,
       "approved": false,
       "kpiProgressPct": 20
-    },
-    {
-      "name": "Rona Kingji",
-      "account": "Bites",
-      "initials": "RK",
-      "id": "rona",
-      "meetings": 1,
-      "kpi": 3,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 33
     },
     {
       "name": "Metodi Atanasov",
