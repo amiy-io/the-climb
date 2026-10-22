@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-22T17:02:27.668Z",
+  "generatedAt": "2026-10-22T18:01:42.095Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -199,6 +199,17 @@
       "kpiProgressPct": 75
     },
     {
+      "name": "Altin Krasniqi",
+      "account": "Swimm",
+      "initials": "AK",
+      "id": "altin",
+      "meetings": 3,
+      "kpi": 5,
+      "bonus": 60,
+      "approved": false,
+      "kpiProgressPct": 60
+    },
+    {
       "name": "Masa Micovic",
       "account": "Sequesto",
       "initials": "MM",
@@ -252,17 +263,6 @@
       "bonus": 40,
       "approved": false,
       "kpiProgressPct": 25
-    },
-    {
-      "name": "Altin Krasniqi",
-      "account": "Swimm",
-      "initials": "AK",
-      "id": "altin",
-      "meetings": 2,
-      "kpi": 5,
-      "bonus": 40,
-      "approved": false,
-      "kpiProgressPct": 40
     },
     {
       "name": "Liza Krivaça",
