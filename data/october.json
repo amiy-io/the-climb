@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-23T14:02:43.830Z",
+  "generatedAt": "2026-10-23T15:02:36.391Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -254,6 +254,17 @@
       "kpiProgressPct": 67
     },
     {
+      "name": "Natasa Dimovska",
+      "account": "Swimm",
+      "initials": "ND",
+      "id": "natasa",
+      "meetings": 2,
+      "kpi": 5,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 40
+    },
+    {
       "name": "Vladan Koprivnica",
       "account": "Guardz",
       "initials": "VK",
@@ -351,17 +362,6 @@
       "bonus": 20,
       "approved": false,
       "kpiProgressPct": 25
-    },
-    {
-      "name": "Natasa Dimovska",
-      "account": "Swimm",
-      "initials": "ND",
-      "id": "natasa",
-      "meetings": 1,
-      "kpi": 5,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 20
     },
     {
       "name": "Gerard Daberdaku",
