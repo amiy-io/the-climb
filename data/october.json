@@ -1,8 +1,8 @@
 {
   "month": "October",
   "monthFile": "october",
-  "rosterSize": 45,
-  "generatedAt": "2026-10-26T15:04:47.073Z",
+  "rosterSize": 44,
+  "generatedAt": "2026-10-26T16:03:15.761Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -63,14 +63,6 @@
       "pct": 50
     },
     {
-      "name": "Josh Akamihe",
-      "initials": "JA",
-      "id": "josh",
-      "meetings": 0,
-      "kpi": 0,
-      "pct": 0
-    },
-    {
       "name": "Gentian Elezi",
       "initials": "GE",
       "id": "gentian",
@@ -85,6 +77,14 @@
       "meetings": 4,
       "kpi": 5,
       "pct": 80
+    },
+    {
+      "name": "Mac Torralba",
+      "initials": "MT",
+      "id": "mac",
+      "meetings": 3,
+      "kpi": 4,
+      "pct": 75
     }
   ],
   "allEarners": [
@@ -142,17 +142,6 @@
       "bonus": 130,
       "approved": false,
       "kpiProgressPct": 50
-    },
-    {
-      "name": "Josh Akamihe",
-      "account": "Flowx.ai",
-      "initials": "JA",
-      "id": "josh",
-      "meetings": 0,
-      "kpi": 0,
-      "bonus": 100,
-      "approved": false,
-      "kpiProgressPct": 0
     },
     {
       "name": "Gentian Elezi",
@@ -553,8 +542,8 @@
   ],
   "stats": {
     "totalRecords": 46,
-    "aggregatedRows": 42,
+    "aggregatedRows": 41,
     "approvedCount": 0,
-    "uniqueSdrs": 36
+    "uniqueSdrs": 35
   }
 }
