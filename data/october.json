@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-26T18:04:50.339Z",
+  "generatedAt": "2026-10-26T19:05:01.476Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -79,12 +79,12 @@
       "pct": 80
     },
     {
-      "name": "Mac Torralba",
-      "initials": "MT",
-      "id": "mac",
+      "name": "Flamur Osmani",
+      "initials": "FO",
+      "id": "flamur",
       "meetings": 3,
-      "kpi": 4,
-      "pct": 75
+      "kpi": 8,
+      "pct": 38
     }
   ],
   "allEarners": [
@@ -164,6 +164,17 @@
       "bonus": 80,
       "approved": false,
       "kpiProgressPct": 80
+    },
+    {
+      "name": "Flamur Osmani",
+      "account": "Guardz",
+      "initials": "FO",
+      "id": "flamur",
+      "meetings": 3,
+      "kpi": 8,
+      "bonus": 60,
+      "approved": false,
+      "kpiProgressPct": 38
     },
     {
       "name": "Mac Torralba",
@@ -252,6 +263,17 @@
       "bonus": 40,
       "approved": false,
       "kpiProgressPct": 40
+    },
+    {
+      "name": "Gerard Daberdaku",
+      "account": "Network box USA",
+      "initials": "GD",
+      "id": "gerard",
+      "meetings": 2,
+      "kpi": 8,
+      "bonus": 40,
+      "approved": false,
+      "kpiProgressPct": 25
     },
     {
       "name": "Vladan Koprivnica",
@@ -351,28 +373,6 @@
       "bonus": 20,
       "approved": false,
       "kpiProgressPct": 25
-    },
-    {
-      "name": "Gerard Daberdaku",
-      "account": "Network box USA",
-      "initials": "GD",
-      "id": "gerard",
-      "meetings": 1,
-      "kpi": 8,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 13
-    },
-    {
-      "name": "Flamur Osmani",
-      "account": "Guardz",
-      "initials": "FO",
-      "id": "flamur",
-      "meetings": 1,
-      "kpi": 8,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 13
     },
     {
       "name": "Veljko Nikolic",
