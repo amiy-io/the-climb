@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-27T15:04:40.226Z",
+  "generatedAt": "2026-10-27T16:03:09.646Z",
   "topEarner": {
     "name": "Elena Ristovska",
     "account": "Hear.ai",
@@ -55,6 +55,14 @@
       "pct": 63
     },
     {
+      "name": "Flamur Osmani",
+      "initials": "FO",
+      "id": "flamur",
+      "meetings": 5,
+      "kpi": 8,
+      "pct": 63
+    },
+    {
       "name": "Jovana Stojanovic",
       "initials": "JS",
       "id": "jovana",
@@ -77,14 +85,6 @@
       "meetings": 4,
       "kpi": 5,
       "pct": 80
-    },
-    {
-      "name": "Flamur Osmani",
-      "initials": "FO",
-      "id": "flamur",
-      "meetings": 3,
-      "kpi": 8,
-      "pct": 38
     }
   ],
   "allEarners": [
@@ -133,6 +133,17 @@
       "kpiProgressPct": 63
     },
     {
+      "name": "Flamur Osmani",
+      "account": "Guardz",
+      "initials": "FO",
+      "id": "flamur",
+      "meetings": 5,
+      "kpi": 8,
+      "bonus": 130,
+      "approved": false,
+      "kpiProgressPct": 63
+    },
+    {
       "name": "Jovana Stojanovic",
       "account": "Sequesto",
       "initials": "JS",
@@ -164,17 +175,6 @@
       "bonus": 80,
       "approved": false,
       "kpiProgressPct": 80
-    },
-    {
-      "name": "Flamur Osmani",
-      "account": "Guardz",
-      "initials": "FO",
-      "id": "flamur",
-      "meetings": 3,
-      "kpi": 8,
-      "bonus": 60,
-      "approved": false,
-      "kpiProgressPct": 38
     },
     {
       "name": "Mac Torralba",
