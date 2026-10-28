@@ -1,8 +1,8 @@
 {
   "month": "October",
   "monthFile": "october",
-  "rosterSize": 44,
-  "generatedAt": "2026-10-28T15:04:36.295Z",
+  "rosterSize": 43,
+  "generatedAt": "2026-10-28T16:04:12.186Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Cosmo Tech",
@@ -408,17 +408,6 @@
       "kpiProgressPct": 33
     },
     {
-      "name": "Treasure Akudo Terry",
-      "account": "Swimm",
-      "initials": "TA",
-      "id": "treasure",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
       "name": " Paul Shatilov",
       "account": "Markival",
       "initials": "PS",
@@ -542,8 +531,8 @@
   ],
   "stats": {
     "totalRecords": 46,
-    "aggregatedRows": 41,
+    "aggregatedRows": 40,
     "approvedCount": 0,
-    "uniqueSdrs": 35
+    "uniqueSdrs": 34
   }
 }
