@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 43,
-  "generatedAt": "2026-10-28T20:04:27.015Z",
+  "generatedAt": "2026-10-28T21:06:35.107Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Cosmo Tech",
@@ -28,6 +28,14 @@
       "id": "metodi",
       "meetings": 10,
       "kpi": 4,
+      "pct": 100
+    },
+    {
+      "name": "Aleksandro Klincarski",
+      "initials": "AK",
+      "id": "aleksandro",
+      "meetings": 9,
+      "kpi": 8,
       "pct": 100
     },
     {
@@ -63,14 +71,6 @@
       "pct": 100
     },
     {
-      "name": "Aleksandro Klincarski",
-      "initials": "AK",
-      "id": "aleksandro",
-      "meetings": 5,
-      "kpi": 8,
-      "pct": 63
-    },
-    {
       "name": "Jovana Stojanovic",
       "initials": "JS",
       "id": "jovana",
@@ -98,6 +98,17 @@
       "bonus": 780,
       "approved": false,
       "kpiProgressPct": 250
+    },
+    {
+      "name": "Aleksandro Klincarski",
+      "account": "Guardz",
+      "initials": "AK",
+      "id": "aleksandro",
+      "meetings": 9,
+      "kpi": 8,
+      "bonus": 680,
+      "approved": false,
+      "kpiProgressPct": 113
     },
     {
       "name": "Elena Ristovska",
@@ -142,17 +153,6 @@
       "bonus": 380,
       "approved": false,
       "kpiProgressPct": 100
-    },
-    {
-      "name": "Aleksandro Klincarski",
-      "account": "Guardz",
-      "initials": "AK",
-      "id": "aleksandro",
-      "meetings": 5,
-      "kpi": 8,
-      "bonus": 130,
-      "approved": false,
-      "kpiProgressPct": 63
     },
     {
       "name": "Jovana Stojanovic",
