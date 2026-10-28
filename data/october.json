@@ -2,26 +2,34 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-28T12:03:11.410Z",
+  "generatedAt": "2026-10-28T13:05:55.908Z",
   "topEarner": {
-    "name": "Elena Ristovska",
-    "account": "Hear.ai",
-    "initials": "ER",
-    "id": "elena",
-    "meetings": 8,
-    "kpi": 5,
+    "name": "Metodi Atanasov",
+    "account": "Cosmo Tech",
+    "initials": "MA",
+    "id": "metodi",
+    "meetings": 10,
+    "kpi": 4,
     "tier": 5,
-    "bonus": 644,
-    "baseBonus": 340,
+    "bonus": 780,
+    "baseBonus": 530,
     "extraBonus": 250,
-    "specialBonus": 54,
-    "kpiProgressPct": 160,
-    "overBy": 3,
-    "summary": "KPI smashed. 3 meetings over target."
+    "specialBonus": 0,
+    "kpiProgressPct": 250,
+    "overBy": 6,
+    "summary": "KPI smashed. 6 meetings over target."
   },
   "paidOutTotal": 0,
   "paidOut": [],
   "seasonTrack": [
+    {
+      "name": "Metodi Atanasov",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 10,
+      "kpi": 4,
+      "pct": 100
+    },
     {
       "name": "Elena Ristovska",
       "initials": "ER",
@@ -36,14 +44,6 @@
       "id": "metodi",
       "meetings": 5,
       "kpi": 5,
-      "pct": 100
-    },
-    {
-      "name": "Metodi Atanasov",
-      "initials": "MA",
-      "id": "metodi",
-      "meetings": 5,
-      "kpi": 4,
       "pct": 100
     },
     {
@@ -89,6 +89,17 @@
   ],
   "allEarners": [
     {
+      "name": "Metodi Atanasov",
+      "account": "Cosmo Tech",
+      "initials": "MA",
+      "id": "metodi",
+      "meetings": 10,
+      "kpi": 4,
+      "bonus": 780,
+      "approved": false,
+      "kpiProgressPct": 250
+    },
+    {
       "name": "Elena Ristovska",
       "account": "Hear.ai",
       "initials": "ER",
@@ -109,17 +120,6 @@
       "bonus": 380,
       "approved": false,
       "kpiProgressPct": 100
-    },
-    {
-      "name": "Metodi Atanasov",
-      "account": "Cosmo Tech",
-      "initials": "MA",
-      "id": "metodi",
-      "meetings": 5,
-      "kpi": 4,
-      "bonus": 380,
-      "approved": false,
-      "kpiProgressPct": 125
     },
     {
       "name": "Aleksandro Klincarski",
