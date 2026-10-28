@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 44,
-  "generatedAt": "2026-10-28T13:05:55.908Z",
+  "generatedAt": "2026-10-28T14:04:31.872Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Cosmo Tech",
@@ -35,6 +35,14 @@
       "initials": "ER",
       "id": "elena",
       "meetings": 8,
+      "kpi": 5,
+      "pct": 100
+    },
+    {
+      "name": "Liza Krivaça",
+      "initials": "LK",
+      "id": "liza",
+      "meetings": 5,
       "kpi": 5,
       "pct": 100
     },
@@ -77,14 +85,6 @@
       "meetings": 4,
       "kpi": 5,
       "pct": 80
-    },
-    {
-      "name": "Rrezart Shkodra",
-      "initials": "RS",
-      "id": "rrezart",
-      "meetings": 4,
-      "kpi": 5,
-      "pct": 80
     }
   ],
   "allEarners": [
@@ -109,6 +109,17 @@
       "bonus": 644,
       "approved": false,
       "kpiProgressPct": 160
+    },
+    {
+      "name": "Liza Krivaça",
+      "account": "Flowx.ai",
+      "initials": "LK",
+      "id": "liza",
+      "meetings": 5,
+      "kpi": 5,
+      "bonus": 380,
+      "approved": false,
+      "kpiProgressPct": 100
     },
     {
       "name": "Metodi Atanasov",
@@ -287,15 +298,15 @@
       "kpiProgressPct": 25
     },
     {
-      "name": "Liza Krivaça",
-      "account": "Flowx.ai",
-      "initials": "LK",
-      "id": "liza",
+      "name": "Veljko Nikolic",
+      "account": "Cosmo Tech",
+      "initials": "VN",
+      "id": "veljko",
       "meetings": 2,
-      "kpi": 5,
+      "kpi": 4,
       "bonus": 40,
       "approved": false,
-      "kpiProgressPct": 40
+      "kpiProgressPct": 50
     },
     {
       "name": "Medina Gashi",
@@ -368,17 +379,6 @@
       "account": "Global Surveyz",
       "initials": "MA",
       "id": "metodi",
-      "meetings": 1,
-      "kpi": 4,
-      "bonus": 20,
-      "approved": false,
-      "kpiProgressPct": 25
-    },
-    {
-      "name": "Veljko Nikolic",
-      "account": "Cosmo Tech",
-      "initials": "VN",
-      "id": "veljko",
       "meetings": 1,
       "kpi": 4,
       "bonus": 20,
