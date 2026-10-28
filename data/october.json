@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 43,
-  "generatedAt": "2026-10-28T17:04:57.586Z",
+  "generatedAt": "2026-10-28T18:05:58.837Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Cosmo Tech",
@@ -39,6 +39,14 @@
       "pct": 100
     },
     {
+      "name": "Flamur Osmani",
+      "initials": "FO",
+      "id": "flamur",
+      "meetings": 8,
+      "kpi": 8,
+      "pct": 100
+    },
+    {
       "name": "Liza Krivaça",
       "initials": "LK",
       "id": "liza",
@@ -58,14 +66,6 @@
       "name": "Aleksandro Klincarski",
       "initials": "AK",
       "id": "aleksandro",
-      "meetings": 5,
-      "kpi": 8,
-      "pct": 63
-    },
-    {
-      "name": "Flamur Osmani",
-      "initials": "FO",
-      "id": "flamur",
       "meetings": 5,
       "kpi": 8,
       "pct": 63
@@ -111,6 +111,17 @@
       "kpiProgressPct": 160
     },
     {
+      "name": "Flamur Osmani",
+      "account": "Guardz",
+      "initials": "FO",
+      "id": "flamur",
+      "meetings": 8,
+      "kpi": 8,
+      "bonus": 590,
+      "approved": false,
+      "kpiProgressPct": 100
+    },
+    {
       "name": "Liza Krivaça",
       "account": "Flowx.ai",
       "initials": "LK",
@@ -137,17 +148,6 @@
       "account": "Guardz",
       "initials": "AK",
       "id": "aleksandro",
-      "meetings": 5,
-      "kpi": 8,
-      "bonus": 130,
-      "approved": false,
-      "kpiProgressPct": 63
-    },
-    {
-      "name": "Flamur Osmani",
-      "account": "Guardz",
-      "initials": "FO",
-      "id": "flamur",
       "meetings": 5,
       "kpi": 8,
       "bonus": 130,
@@ -188,15 +188,26 @@
       "kpiProgressPct": 80
     },
     {
+      "name": "Vladan Koprivnica",
+      "account": "Guardz",
+      "initials": "VK",
+      "id": "vladan",
+      "meetings": 3,
+      "kpi": 8,
+      "bonus": 60,
+      "approved": false,
+      "kpiProgressPct": 38
+    },
+    {
       "name": "Mac Torralba",
       "account": "Guardz",
       "initials": "MT",
       "id": "mac",
       "meetings": 3,
-      "kpi": 4,
+      "kpi": 5,
       "bonus": 60,
       "approved": false,
-      "kpiProgressPct": 75
+      "kpiProgressPct": 60
     },
     {
       "name": "Agon Jakupi",
@@ -204,10 +215,10 @@
       "initials": "AJ",
       "id": "agon",
       "meetings": 3,
-      "kpi": 4,
+      "kpi": 5,
       "bonus": 60,
       "approved": false,
-      "kpiProgressPct": 75
+      "kpiProgressPct": 60
     },
     {
       "name": "Altin Krasniqi",
@@ -280,17 +291,6 @@
       "account": "Network box USA",
       "initials": "GD",
       "id": "gerard",
-      "meetings": 2,
-      "kpi": 8,
-      "bonus": 40,
-      "approved": false,
-      "kpiProgressPct": 25
-    },
-    {
-      "name": "Vladan Koprivnica",
-      "account": "Guardz",
-      "initials": "VK",
-      "id": "vladan",
       "meetings": 2,
       "kpi": 8,
       "bonus": 40,
