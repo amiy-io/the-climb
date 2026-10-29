@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 43,
-  "generatedAt": "2026-10-29T15:02:03.818Z",
+  "generatedAt": "2026-10-29T16:07:23.005Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Cosmo Tech",
@@ -55,6 +55,14 @@
       "pct": 100
     },
     {
+      "name": "Mac Torralba",
+      "initials": "MT",
+      "id": "mac",
+      "meetings": 6,
+      "kpi": 5,
+      "pct": 100
+    },
+    {
       "name": "Gentian Elezi",
       "initials": "GE",
       "id": "gentian",
@@ -77,14 +85,6 @@
       "meetings": 5,
       "kpi": 5,
       "pct": 100
-    },
-    {
-      "name": "Jovana Stojanovic",
-      "initials": "JS",
-      "id": "jovana",
-      "meetings": 5,
-      "kpi": 10,
-      "pct": 50
     }
   ],
   "allEarners": [
@@ -133,6 +133,17 @@
       "kpiProgressPct": 100
     },
     {
+      "name": "Mac Torralba",
+      "account": "Guardz",
+      "initials": "MT",
+      "id": "mac",
+      "meetings": 6,
+      "kpi": 5,
+      "bonus": 440,
+      "approved": false,
+      "kpiProgressPct": 120
+    },
+    {
       "name": "Gentian Elezi",
       "account": "Swimm",
       "initials": "GE",
@@ -177,6 +188,17 @@
       "kpiProgressPct": 50
     },
     {
+      "name": "Vladan Koprivnica",
+      "account": "Guardz",
+      "initials": "VK",
+      "id": "vladan",
+      "meetings": 4,
+      "kpi": 8,
+      "bonus": 80,
+      "approved": false,
+      "kpiProgressPct": 50
+    },
+    {
       "name": "Rrezart Shkodra",
       "account": "Flowx.ai",
       "initials": "RS",
@@ -186,28 +208,6 @@
       "bonus": 80,
       "approved": false,
       "kpiProgressPct": 80
-    },
-    {
-      "name": "Vladan Koprivnica",
-      "account": "Guardz",
-      "initials": "VK",
-      "id": "vladan",
-      "meetings": 3,
-      "kpi": 8,
-      "bonus": 60,
-      "approved": false,
-      "kpiProgressPct": 38
-    },
-    {
-      "name": "Mac Torralba",
-      "account": "Guardz",
-      "initials": "MT",
-      "id": "mac",
-      "meetings": 3,
-      "kpi": 5,
-      "bonus": 60,
-      "approved": false,
-      "kpiProgressPct": 60
     },
     {
       "name": "Agon Jakupi",
