@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 43,
-  "generatedAt": "2026-10-29T12:03:20.919Z",
+  "generatedAt": "2026-10-29T13:03:22.025Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Cosmo Tech",
@@ -55,6 +55,14 @@
       "pct": 100
     },
     {
+      "name": "Gentian Elezi",
+      "initials": "GE",
+      "id": "gentian",
+      "meetings": 5,
+      "kpi": 5,
+      "pct": 100
+    },
+    {
       "name": "Liza Krivaça",
       "initials": "LK",
       "id": "liza",
@@ -77,14 +85,6 @@
       "meetings": 5,
       "kpi": 10,
       "pct": 50
-    },
-    {
-      "name": "Gentian Elezi",
-      "initials": "GE",
-      "id": "gentian",
-      "meetings": 4,
-      "kpi": 5,
-      "pct": 80
     }
   ],
   "allEarners": [
@@ -133,6 +133,17 @@
       "kpiProgressPct": 100
     },
     {
+      "name": "Gentian Elezi",
+      "account": "Swimm",
+      "initials": "GE",
+      "id": "gentian",
+      "meetings": 5,
+      "kpi": 5,
+      "bonus": 380,
+      "approved": false,
+      "kpiProgressPct": 100
+    },
+    {
       "name": "Liza Krivaça",
       "account": "Flowx.ai",
       "initials": "LK",
@@ -164,17 +175,6 @@
       "bonus": 130,
       "approved": false,
       "kpiProgressPct": 50
-    },
-    {
-      "name": "Gentian Elezi",
-      "account": "Swimm",
-      "initials": "GE",
-      "id": "gentian",
-      "meetings": 4,
-      "kpi": 5,
-      "bonus": 80,
-      "approved": false,
-      "kpiProgressPct": 80
     },
     {
       "name": "Rrezart Shkodra",
