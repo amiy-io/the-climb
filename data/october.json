@@ -2,7 +2,7 @@
   "month": "October",
   "monthFile": "october",
   "rosterSize": 43,
-  "generatedAt": "2026-10-30T07:05:07.330Z",
+  "generatedAt": "2026-10-30T08:02:08.309Z",
   "topEarner": {
     "name": "Metodi Atanasov",
     "account": "Cosmo Tech",
@@ -364,6 +364,17 @@
       "kpiProgressPct": 33
     },
     {
+      "name": "Fat Goska",
+      "account": "Swimm",
+      "initials": "FG",
+      "id": "fat",
+      "meetings": 1,
+      "kpi": 5,
+      "bonus": 20,
+      "approved": false,
+      "kpiProgressPct": 20
+    },
+    {
       "name": "Gezim Rringaj",
       "account": "Swimm",
       "initials": "GR",
@@ -445,17 +456,6 @@
       "account": "Swimm",
       "initials": "AK",
       "id": "aleksandro",
-      "meetings": 0,
-      "kpi": 5,
-      "bonus": 0,
-      "approved": false,
-      "kpiProgressPct": 0
-    },
-    {
-      "name": "Fat Goska",
-      "account": "Swimm",
-      "initials": "FG",
-      "id": "fat",
       "meetings": 0,
       "kpi": 5,
       "bonus": 0,
